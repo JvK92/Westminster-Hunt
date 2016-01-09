@@ -98,6 +98,10 @@
           // dynamically create content
           drawChests();
         })
+        .error(function(request, status, error) {
+          console.log(request);
+            console.log(error);
+        });
       }
       else {
         retrievedCategory = JSON.parse(localStorage.getItem(currentCategory));
@@ -134,6 +138,7 @@
     });
     $('#tab-' + currentCategory + ' ul li div.open').click(function() {
       console.log('done chest');
+      $('#content-frame').html(displayMissionReward($(this).attr('id')));
     });
   };
   chestRemoveOnClick = function() {
@@ -176,10 +181,21 @@
     }
     else {
       // end of quiz
-      $('#content-frame').html("END OF QUIZ");
+      $('#content-frame').html(displayMissionReward());
       setMissionAsDone();
       unsetGlobalQuizElements();
     }
+  };
+
+// displays the information about the mission
+  displayMissionReward = function(missionId) {
+    if (missionId === undefined || missionId === null) missionId = currentMission;
+    console.log('rc');
+    console.log(retrievedCategory);
+    console.log('cm');
+    console.log(missionId);
+    var mission = eval('retrievedCategory' + '.questions.' + missionId + '.info');
+    return mission;
   };
 
   displayQuestion = function(mission, id) {

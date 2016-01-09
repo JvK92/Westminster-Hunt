@@ -22,7 +22,7 @@
       "img3": "images/places/m1/scul",
 
       "q1": {
-        "title": "Where is this memorial located?",
+        "question": "Where is this memorial located?",
         "image": "images/places/m1/quen/memo",
         "answersType": "text",
         "answers": {
@@ -36,7 +36,7 @@
       },
 
       "q2": {
-        "title": "Where can this painting be found?",
+        "question": "Where can this painting be found?",
         "image": "images/places/m1/quen/memo",
         "answersType": "text",
         "answers": {
@@ -50,7 +50,7 @@
       },
 
       "q3": {
-        "title": "Have you seen this sculpture anywhere?",
+        "question": "Have you seen this sculpture anywhere?",
         "image": "images/places/m1/quen/scul",
         "answersType": "text",
         "answers": {
@@ -91,7 +91,7 @@
       "img4": "images/places/m2/gall",
 
       "q1": {
-        "title": "Where is the Gym located in Regents?",
+        "question": "Where is the Gym located in Regents?",
         "answersType": "text",
         "answers": {
           "a": "Ground floor",
@@ -105,7 +105,7 @@
 
 
       "q2": {
-        "title": "How much is gym membership monthly, if you pay for the whole year?",
+        "question": "How much is gym membership monthly, if you pay for the whole year?",
         "answersType": "text",
         "answers": {
           "a": "�10",
@@ -118,7 +118,7 @@
       },
 
       "q3": {
-        "title": "The Gallery next to Regents campus is a museum open to the public?",
+        "question": "The Gallery next to Regents campus is a museum open to the public?",
         "answersType": "text",
         "answers": {
           "a": "true",
@@ -128,8 +128,8 @@
         "location": "rgt"
       },
 
-      "q4": {
-        "title": "What is the correct name for the Caf� found at Cavendish?",
+      "q3": {
+        "question": "What is the correct name for the Caf� found at Cavendish?",
         "answersType": "text",
         "answers": {
           "a": "Cafertino",
@@ -165,7 +165,7 @@
       "img3": "images/places/m3/ltsb",
 
       "q1": {
-        "title": "On what floor is the Portland Hall situated on?",
+        "question": "On what floor is the Portland Hall situated on?",
         "answersType": "text",
         "answers": {
           "a": "Basement B4",
@@ -179,7 +179,7 @@
 
 
       "q2": {
-        "title": "Choose the correct image of the Large Lecture Theatre found in Cavendish",
+        "question": "Choose the correct image of the Large Lecture Theatre found in Cavendish",
         "answersType": "image",
         "answers": {
           "a": "images/places/m3/llta",
@@ -192,7 +192,7 @@
       },
 
       "q3": {
-        "title": "How many Lecture facilities are there in Little Titchford Street?",
+        "question": "How many Lecture facilities are there in Little Titchford Street?",
         "answersType": "text",
         "answers": {
           "a": "3",
@@ -227,7 +227,7 @@
       "img4": "null",
 
       "q1": {
-        "title": "Find the floor with the new interpretation practice classrooms?",
+        "question": "Find the floor with the new interpretation practice classrooms?",
         "answersType": "text",
         "answers": {
           "a": "Upper fourth floor",
@@ -241,7 +241,7 @@
 
 
       "q2": {
-        "title": "Which Campus and locations contain macs for students to use?",
+        "question": "Which Campus and locations contain macs for students to use?",
         "answersType": "text",
         "answers": {
           "a": "Cavendish, library & clipstone 4th floor",
@@ -254,7 +254,7 @@
       },
 
       "q3": {
-        "title": "Which room contains the Sunray computer facilities in Cavendish?",
+        "question": "Which room contains the Sunray computer facilities in Cavendish?",
         "answersType": "text",
         "answers": {
           "a": "Clip 3.108",
@@ -267,7 +267,7 @@
       },
 
       "q4": {
-        "title": "Students can play pool and table tennis for free in Regents campus?",
+        "question": "Students can play pool and table tennis for free in Regents campus?",
         "answersType": "text",
         "answers": {
           "a": "true",

@@ -1,4 +1,4 @@
-{
+﻿{
   "questions": {
 
     "m1": {
@@ -13,7 +13,7 @@
 
         "q3_info": "Changing forgotten passwords will be easier to do on campus,\\n at home or anywhere with an internet connection.\\n\\n Once you are connected to the internet visit password.westminster.ac.uk,\\n enter your username and select the forgotten password link.\\n An email will then be sent to the alternate email address you provided in SRSWeb.\\n Go to your alternate email address and select the link to reset your password.\\n\\n Once your forgotten password is reset,\\n you will need to wait a\\n while\\n for your password details to be synchronised across services such as Blackboard,\\n SRSWeb,\\n Google Apps etc.\\n Synchronisation may take up to an hour especially during busy periods.\\n The password.westminster.ac.uk online service has also been updated to provide you with links to information on how to connect to the University� s wireless network;IT help contacts;and information on IT Security.",
 
-        "q4_info": "It takes both knowledge and effor to succeed. Without effort one cant gain the knowledge and without knowledge one cant make an effort."
+        "q4_info": " It takes both knowledge and effor to succeed. Without effort one cant gain the knowledge and without knowledge one cant make an effort."
       },
 
 
@@ -23,7 +23,7 @@
 
 
       "q1": {
-        "title": "There are 3 Terms in a full year at university. True or False?",
+        "title": "There are 3 Terms in a full year at university. True or False?\\nHint* Ask the registry office",
         "answersType": "text",
         "answers": {
           "a": "True",
@@ -34,7 +34,7 @@
       },
 
       "q2": {
-        "title": "What to do when forgetting your password?",
+        "title": "What to do when forgetting your password?\\nHint* Google this one",
         "answersType": "text",
         "answers": {
           "a": "Contact FixIt or use online self service",
@@ -48,7 +48,7 @@
 
 
       "q3": {
-        "title": "Grades are assessed on knowledge not effort. True or False?",
+        "title": "Grades are assessed on knowledge not effort. True or False?\\nHint* Find a professor to ask before you answer",
         "answersType": "text",
         "answers": {
           "a": "True",
@@ -67,7 +67,7 @@
 
         "q1_info": "Laptops can be borrowed for a period of 24 hours.",
 
-        "q2_info": "Dialling 5488 will allow you to contact fixit andget further technical support ",
+        "q2_info": "Dialling 5488 will allow you to contact fixit andget further technical support",
 
         "q3_info": "Booking study rooms\\n Cavendish,\\n Marylebone and Regent Libraries\\n\\n You can now book group study rooms at our libraries at Cavendish,\\n Marylebone and Regent Campus,\\n using the booking service available through Timetabling.\\n\\n Download our step - by - step room bookings guide\\nLog in to Timetabling to book a room "
       },
@@ -78,7 +78,7 @@
       "img3": "null",
 
       "q1": {
-        "title": "Libraries offer laptops on loan for a period of ? ",
+        "title": "Libraries offer laptops on loan for a period of ?\\nHint* Ask the librarians ",
         "answersType": "text",
         "answers": {
           "a": "24 Hours",
@@ -92,7 +92,7 @@
 
 
       "q2": {
-        "title": "How to does one contact fix on the university landlines?",
+        "title": "How to does one contact fix on the university landlines?\\nHint* Reception can help with this one",
         "answersType": "text",
         "answers": {
           "a": "dial 1589",
@@ -105,7 +105,7 @@
       },
 
       "q3": {
-        "title": "Students can book rooms. True or False?",
+        "title": "Students can book rooms. True or False?\\nHint* Google this one",
         "answersType": "text",
         "answers": {
           "a": "True",
@@ -137,7 +137,7 @@
       "img4": "images/study/m3/caro",
 
       "q1": {
-        "title": "How many silent study group rooms there in Cavendish library ? ",
+        "title": "How many silent study group rooms there in Cavendish library ? \\nHint* Find the library first",
         "answersType": "text",
         "answers": {
           "a": "7",
@@ -150,7 +150,7 @@
       },
 
       "q2": {
-        "title": "Silent study areas are bookable and found in certain libraries across campuses?",
+        "title": "Silent study areas are bookable and found in certain libraries across campuses?\\nHint* Find a librarian, they can help",
         "answersType": "text",
         "answers": {
           "a": "True",
@@ -174,7 +174,7 @@
       },
 
       "q4": {
-        "title": "How many study carousels are on the fith floor in Cavendish Library?",
+        "title": "How many study carousels are on the fith floor in Cavendish Library?\\nHint* Youll need to go back to the library for this one",
         "answersType": "text",
         "answers": {
           "a": "2",
@@ -205,7 +205,7 @@
 
 
       "q1": {
-        "title": "How many total credits is typical in a year on an undergradute course?",
+        "title": "How many total credits is typical in a year on an undergradute course?\\nHint* log in to SRSweb",
         "answersType": "text",
         "answers": {
           "a": "120",
@@ -219,7 +219,7 @@
 
 
       "q2": {
-        "title": "What is the minimum credits for one module?",
+        "title": "What is the minimum credits for one module?\\nHint* Hope your still logged into SRSweb",
         "answersType": "text",
         "answers": {
           "a": "5",
@@ -232,7 +232,7 @@
       },
 
       "q3": {
-        "title": "Blackboard submissions are usually on what time/day of the week?",
+        "title": "Blackboard submissions are usually on what time/day of the week? \\nHint* Ask the students",
         "answersType": "text",
         "answers": {
           "a": "Tuesday 11am",

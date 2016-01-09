@@ -1,9 +1,9 @@
-{
+﻿{
   "questions": {
 
     "m1": {
 
-      "title": "Student Understanding",
+      "title": "Understanding",
       "noofquestions": "3",
       "info": {
 
@@ -21,7 +21,7 @@
 
 
       "q1": {
-        "title": "Choose the best definition for Mitigating Circumstances",
+        "title": "Choose the best definition for Mitigating Circumstances\\nHint* Ask the registry",
         "answersType": "text",
         "answers": {
           "a": "Serious, medical circumstances that prevent students from completing assessments.",
@@ -34,7 +34,7 @@
       },
 
       "q2": {
-        "title": "Student timetables can be found at?",
+        "title": "Student timetables can be found...\\nHint* Ask the students",
         "answersType": "text",
         "answers": {
           "a": "Via timetabling on Westminster�s student homepage",
@@ -47,7 +47,7 @@
       },
 
       "q3": {
-        "title": "Enrolment and Course information be found using the university app?",
+        "title": "Enrolment and Course information is found using the university app?\\nHint* Need help ask the registry",
         "answersType": "text",
         "answers": {
           "a": "True",
@@ -82,7 +82,7 @@
 
 
       "q1": {
-        "title": "Which campus houses the Faculty of Social Sciences & Humanities?",
+        "title": "Which campus houses the Faculty of Social Sciences & Humanities?\\nHint* Visit the Little Titchford St. Campus" ,
         "answersType": "text",
         "answers": {
           "a": "Regents",
@@ -95,7 +95,7 @@
       },
 
       "q2": {
-        "title": "What does the Faculty of Science & Technology Registry Office look like?",
+        "title": "What does the Faculty of Science & Technology Registry Office look like?\\nHint* You'll need to find it first",
         "answersType": "image",
         "answers": {
           "a": "images/essentials/m2/fsta",
@@ -108,7 +108,7 @@
       },
 
       "q3": {
-        "title": "What are the opening hours for the finance office?",
+        "title": "What are the opening hours for the finance office?\\nHint* look for the signboard outside the Finance office",
         "answersType": "text",
         "answers": {
           "a": "Saturday & Sunday: 11am to 2pm",
@@ -121,7 +121,7 @@
       },
 
       "q4": {
-        "title": "Students are expelled immediately for not paying their fees?",
+        "title": "Students are expelled immediately for not paying their fees?\\nHint* Ask the Finance office",
         "answersType": "text",
         "answers": {
           "a": "True",
@@ -155,7 +155,7 @@
       "img4": "images/essentials/m3/isls",
 
       "q1": {
-        "title": "What floor is the Cavendish library on?",
+        "title": "What floor is the Cavendish library on?\\nHint* Visit the library",
         "answersType": "text",
         "answers": {
           "a": "Third Floor",
@@ -169,7 +169,7 @@
 
 
       "q2": {
-        "title": "What is the University of Westminster Students� Union (UWSU)?",
+        "title": "What is the University of Westminster Students� Union (UWSU)?\\nHint* Find their office and have some fun",
         "answersType": "text",
         "answers": {
           "a": "An independent organisation that is run by students, for students.",
@@ -182,7 +182,7 @@
       },
 
       "q3": {
-        "title": "What floor is the bookshop in Cavendish located?",
+        "title": "What floor was the bookshop in Cavendish located? \\nHint* Ask someone old",
         "answersType": "text",
         "answers": {
           "a": "Third Floor",
@@ -195,7 +195,7 @@
       },
 
       "q4": {
-        "title": "What is FixIt?",
+        "title": "What is FixIt? \\nHint* Ask someone geeky-looking",
         "answersType": "text",
         "answers": {
           "a": "University IT support Service",

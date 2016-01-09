@@ -2,62 +2,103 @@
   "questions": {
     "m1": {
 
-      "title": "Questions On: Science & Technology Academic Staff",
-      "noofquestions": "4",
-      "info": {
-        "q1_info": "Dr Philip Tworga\\nBSc Computer Science Course Leader\\n\\nT: +44(0) 20 7911 5851 ext 65851@: trwogap@ westminster.ac.uk\\nAcademic qualifications\\n  - BSc Applied Physics(Liverpool) - MSc Advanced Software Engineering(Westminster),\\n-PhD Electronic and Electrical Engineering(UCL)\\nIndustrial and commercial experience\\n9 years as a Senior Research Fellow at the Department of Electronic and Electrical\\nEngineering,\\nUniversity College London,\\nin the Optical and Electronic Devices and the\\nComputer Modelling Groups.\\nGEC - Marconi(Research Scientist): development of optical communication systems and\\nhigh - speed analogue amplifiers.\\nAlcatel Submarine Networks(Software Designer): development of a CORBA implementation\\nof the Network Management Layer\\nfor the submarine terminal software.\\nAlso undertaken media\\nfor BBC Radio and\\nfor BBC Worldwide.",
-
-        "q2_info": "Anne - Gaelle Colom\\nSenior Lecturer\\nT: +44(0) 20 7911 5000 ext 64512@: coloma@ westminster.ac.uk\\n  Anne - Gaelle Colom is a Teaching Fellow,\\nSenior Lecturer and Course Leader\\nfor BEng / MEng Mobile and Web Computing at the University of Westminster.\\nAnne - Gaelle is also a member of the jQuery Mobile Team and the jQuery Mobile representative in Europe.\\nAnne - Gaelle Colom received an MPhil in Mobile Computing in 1999 from the University of Westminster.\\nPassionate about Teaching and Learning,\\nAnne - Gaelle is also a Mobile Web expert.\\nShe has 16 years experience in Mobile Application development,\\nand 17 years experience in front end Web development.\\nHer areas of expertise include Mobile Web,\\njQuery Mobile,\\nMobile User Experience,\\nHTML5,\\nCSS3,\\nJavaScript,\\nXSLT and XML.",
-
-        "q3_info": "Wendy Purdy\\nSenior Lecturer\\nT: +44(0) 20 7911 5000 ext 64501@: w.purdy@ westminster.ac.uk\\n  << Academic qualifications >>\\n  BSc(Hons),\\nMSc,\\nPGCHE\\n<< Industrial and commercial experience >>\\nInformation Systems Development Manager(2 years)\\n<< Professional Membership >>\\nFellow of the Higher Education Academy\\nMember of the British Computer Society\\nAccredited Teacher in HE(SEDA)",
-
-        "q4_info": "Dr Miriam Dwek\\nSenior Lecturer in Biochemistry,\\nGroup Leader - Against Breast Cancer Research Unit\\nT: +44(0) 20 7911 5000 ext 64158@: m.v.dwek@ westminster.ac.uk\\n  I undertook my BSc in Applied Biology,\\nin the part - time mode,\\nwhilst working at Smith & Nephew Medical,\\nHull.\\nOn graduation I joined the biotech company Oxford Glycosystems(subsequently part of the CellTech group) -\\nmy first foray into the field of Glycobiology.My PhD was undertaken at UCL with Dr Leathem on glycosylation changes in breast cancer.\\nAfter post - doctoral work with Dr Leathem I moved two blocks north of UCL to the University of Westminster as a Senior Lecturer andset up my own lab( in 2002).\\nI am the Principal Investigator of the Against Breast Cancer Unit at the University of Westminster,\\ncurrently comprising 6 researchers and 2 research administrators.Our research work continues in the area of Cancer Glycobiology.\\nMost of the work has been focussed on proteins that show alterations in glycosylation in cancer using HPLC,\\nlectin and proteomic technologies with a view to developing blood and urine tests\\nfor breast cancer.\\nThe aim is to develop strategies\\nfor targeting breast cancer and boosting the immune response to carbohydrate antigens.\\nA further aspect of the research is the interplay between diet and lifestyle and outcome following breast cancer."
-      },
-      "img1": "images\\people\\m1\\phild",
-      "img2": "images\\people\\m1\\anneb",
-      "img3": "null",
-      "img4": "images\\people\\m1\\miria",
+      "title": "Computer Science",
+      "noofquestions": "3",
+      "info": "Dr Philip Tworga<br>BSc Computer Science Course Leader<br>T: +44(0) 20 7911 5851 ext 65851<br>@: trwogap@ westminster.ac.uk<br><br><h4>Academic qualifications</h4>  - BSc Applied Physics(Liverpool) - MSc Advanced Software Engineering(Westminster),<br>- PhD Electronic and Electrical Engineering(UCL)<p>Industrial and commercial experience 9 years as a Senior Research Fellow at the Department of Electronic and Electrical Engineering, University College London, in the Optical and Electronic Devices and the Computer Modelling Groups.</p>GEC - Marconi(Research Scientist): development of optical communication systems and high - speed analogue amplifiers.<br>Alcatel Submarine Networks(Software Designer): development of a CORBA implementation<br>of the Network Management Layer<br>for the submarine terminal software.<br>Also undertaken media for BBC Radio and for BBC Worldwide.",
+      "img1": "images/people/m1/phild",
       "q1": {
+        "title": "Who is philip Tworga?",
+        "answersType": "text",
+        "answers": {
+          "a": "Course leader for BSc Computer Science",
+          "b": "Senior lecturer at University of Westminster & Content Lead for jQuery Foundation",
+          "c": "Director of Social Sciences and Humanities",
+          "d": "Senior Lecturer in Problem Solving and Course leader for Computer Science"
+        },
+        "correct": "a",
+        "location": "cav"
+      },
+      "q2": {
         "title": "Select the correct picture of Philip Tworga?",
         "answersType": "image",
         "answers": {
-          "a": "images/people/m1/anneb.jpg",
-          "b": "images/people/m1/Daphne.jpg",
-          "c": "images/people/m1/epi.jpg",
+          "a": "images/people/m1/phild.jpg",
+          "b": "images/people/m1/phild.jpg",
+          "c": "images/people/m1/phild.jpg",
           "d": "images/people/m1/phild.jpg"
         },
         "correct": "d",
         "location": "cav"
       },
-
-      "q2": {
-        "title": "Who is Anne-Gaelle Colom?",
-        "answersType": "text",
-        "answers": {
-          "a": "Dean for the Faculty of Science & Technology",
-          "b": "Senior lecturer at University of Westminster & Content Lead for jQuery Foundation",
-          "c": "Director of Social Sciences and Humanities",
-          "d": "Senior Lecturer in Problem Solving and Course leader for Computer Science"
-        },
-        "correct": "b",
-        "location": "cav"
-      },
-
       "q3": {
-        "title": "Wendy Purdy is?",
+        "title": "Can you find Philips office?",
         "answersType": "text",
         "answers": {
-          "a": "Senior lecturer at University of Westminster & Content Lead for jQuery Foundation",
-          "b": "Senior lecturer in Web development & Course leader for Computer Science",
-          "c": "Director of Social Sciences and Humanities",
-          "d": "Senior lecturer at University of Westminster"
+          "a": "Room N7.122",
+          "b": "Room N3.123",
+          "c": "Room N1.113",
+          "d": "Room N7.112"
         },
         "correct": "d",
         "location": "cav"
+      }
       },
 
-      "q4": {
-        "title": "Who is Miriam Dwek?",
+      "m2": {
+        "title": "Chancellors",
+        "noofquestions": "2",
+        "info": "Vice - Chancellor<br>Professor Geoff Petts<br>rofessor Petts has been Vice - Chancellor of the University of Westminster since 1 August 2007.<br>He studied physical geography and geology at the University of Liverpool and gained his PhD at the University of Southampton.<br>He was appointed to a lectureship at Loughborough University in 1979,<br>was awarded a chair in 1989,<br>and became head of department in 1991.<br>In 1994 he moved to the University of Birmingham as Professor of Physical Geography and Director of Environmental Research and Management.<br>Two years later,<br>he founded that University� s Centre<br>for Environmental Research and Training(CERT).<br>He was appointed Pro Vice - Chancellor at Birmingham in 2002,<br>before taking up his appointment as Vice - Chancellor at University of Westminster.<br><br><br>Lady Sorrell<br>Chancellor<br>Lady Sorrell is co - founder and co - chair of the Sorrell Foundation,<br>which was established in 1999,<br>to foster confidence and creativity in young people.<br>In her celebrated career,<br>Frances has worked with thousands of school pupils through the Foundation� s initiatives which provide new pathways into the creative industries.<br>Prior to establishing the Sorrell Foundation with her husband,<br>Sir John Sorrell,<br>Frances(ne� Newell) made her name in business as co - founder of Newell and Sorrell.<br>one of Europe� s biggest and most successful design businesses.As creative director at the organisation Frances won over 100 awards<br>for creativity and effectiveness.<br>The Chancellor is called upon<br>for ceremonial duties and acts as ambassador<br>for the University whenever possible.",
+        "img1": "images/people/m2/viceb",
+        "img2": "images/people/m2/chana",
+        "q1": {
+          "title": "Have you met the vice chancellor? Find out what they look like.",
+          "answersType": "image",
+          "answers": {
+            "a": "images/people/m2/vicea",
+            "b": "images/people/m2/viceb",
+            "c": "images/people/m2/vicec",
+            "d": "images/people/m2/viced"
+          },
+          "correct": "b",
+          "location": "rgt"
+        },
+        "q2": {
+          "title": "Does anyone know the Chanceller, Whats her name?",
+          "answersType": "text",
+          "answers": {
+            "a": "Lady Sorrell",
+            "b": "Lady Susane",
+            "c": "Lade Marriet",
+            "d": "Lady Falcon"
+          },
+          "correct": "a",
+          "location": "rgt"
+        }
+      },
+
+    "m3": {
+
+      "title": "BioChemistry",
+      "noofquestions": "2",
+      "info": "Dr Miriam Dwek<br>Senior Lecturer in Biochemistry,<br>Group Leader - Against Breast Cancer Research Unit<br>T: +44(0) 20 7911 5000 ext 64158@: m.v.dwek@ westminster.ac.uk<br>  I undertook my BSc in Applied Biology,<br>in the part - time mode,<br>whilst working at Smith & Nephew Medical,<br>Hull.<br>On graduation I joined the biotech company Oxford Glycosystems(subsequently part of the CellTech group) -<br>my first foray into the field of Glycobiology.My PhD was undertaken at UCL with Dr Leathem on glycosylation changes in breast cancer.<br>After post - doctoral work with Dr Leathem I moved two blocks north of UCL to the University of Westminster as a Senior Lecturer andset up my own lab( in 2002).<br>I am the Principal Investigator of the Against Breast Cancer Unit at the University of Westminster,<br>currently comprising 6 researchers and 2 research administrators.Our research work continues in the area of Cancer Glycobiology.<br>Most of the work has been focussed on proteins that show alterations in glycosylation in cancer using HPLC,<br>lectin and proteomic technologies with a view to developing blood and urine tests<br>for breast cancer.<br>The aim is to develop strategies<br>for targeting breast cancer and boosting the immune response to carbohydrate antigens.<br>A further aspect of the research is the interplay between diet and lifestyle and outcome following breast cancer.",
+
+      "img1": "images/people/m1/miria",
+
+      "q1": {
+        "title": "Can you find out what floor the BioChem Practical Labs are on?",
+        "answersType": "text",
+        "answers": {
+          "a": "Clipstone Floor 2",
+          "b": "Cavendish Floor 2",
+          "c": "Clipstone Floor 5",
+          "d": "Cavendish Floor 5"
+        },
+        "correct": "d",
+        "location": "null"
+      },
+
+      "q2": {
+        "title": "Who is Miriam Dwek? Find out please",
         "answersType": "text",
         "answers": {
           "a": "Senior Lecturer in Biochemistry & Group Leader - Against Breast Cancer Research Unit",
@@ -67,158 +108,40 @@
         },
         "correct": "a",
         "location": "cav"
-      }
-    },
-
-    "m2": {
-
-      "title": "Chancellors",
-      "noofquestions": "2",
-      "info": {
-
-        "q1_info": "Vice - Chancellor\\nProfessor Geoff Petts\\nrofessor Petts has been Vice - Chancellor of the University of Westminster since 1 August 2007.\\nHe studied physical geography and geology at the University of Liverpool and gained his PhD at the University of Southampton.\\nHe was appointed to a lectureship at Loughborough University in 1979,\\nwas awarded a chair in 1989,\\nand became head of department in 1991.\\nIn 1994 he moved to the University of Birmingham as Professor of Physical Geography and Director of Environmental Research and Management.\\nTwo years later,\\nhe founded that University� s Centre\\nfor Environmental Research and Training(CERT).\\nHe was appointed Pro Vice - Chancellor at Birmingham in 2002,\\nbefore taking up his appointment as Vice - Chancellor at University of Westminster.",
-
-        "q2_info": "Lady Sorrell\\nChancellor\\nLady Sorrell is co - founder and co - chair of the Sorrell Foundation,\\nwhich was established in 1999,\\nto foster confidence and creativity in young people.\\nIn her celebrated career,\\nFrances has worked with thousands of school pupils through the Foundation� s initiatives which provide new pathways into the creative industries.\\nPrior to establishing the Sorrell Foundation with her husband,\\nSir John Sorrell,\\nFrances(ne� Newell) made her name in business as co - founder of Newell and Sorrell.\\none of Europe� s biggest and most successful design businesses.As creative director at the organisation Frances won over 100 awards\\nfor creativity and effectiveness.\\nThe Chancellor is called upon\\nfor ceremonial duties and acts as ambassador\\nfor the University whenever possible."
       },
-
-      "img1": "images\\people\\m2\\viceb",
-      "img2": "images\\people\\m2\\chana",
-
-      "q1": {
-        "title": "Have you met the vice chancellor?",
-        "answersType": "image",
-        "answers": {
-          "a": "images\\people\\m2\\vicea",
-          "b": "images\\people\\m2\\viceb",
-          "c": "images\\people\\m2\\vicec",
-          "d": "images\\people\\m2\\viced"
-        },
-        "correct": "b",
-        "location": "null"
-      },
-
-      "q2": {
-        "title": "Who is the Chancellor of Westminster University?",
-        "answersType": "text",
-        "answers": {
-          "a": "Lady Sorrell",
-          "b": "Lady Susane",
-          "c": "Lade Marriet",
-          "d": "Lady Falcon"
-        },
-        "correct": "a",
-        "location": "null"
-      }
-    },
-
-    "m3": {
-
-      "title": "famous people",
-      "noofquestions": "4",
-      "info": {
-
-        "q1_info": "Charles Darwin\\nBiologist,\\nScientist(1809� 1882)\\nNaturalist Charles Darwin was born in Shrewsbury,\\nEngland,\\non February 12,\\n1809. In 1831,\\nhe embarked on a five - year survey voyage around the world on the HMS Beagle.\\nHis studies of specimens around the globe led him to formulate his theory of evolution and his views on the process of natural selection.In 1859,\\nhe published On the Origin of Species.\\nHe died on April 19,\\n1882,\\nin London.",
-
-        "q2_info": "Bill Gates\\nBill Gates and his partner Paul Allen built the world 's largest software business, Microsoft.\\nHe became one of the richest men in the world and a major philanthropist through the Bill & Melinda Gates Foundation.\\nBill and Melinda Gates started the Bill and Melinda Gates Foundation which helps people and organizations all over the world.\\nGates dropped out of Harvard and wrote programs\\nfor the early Apple and Commodore machines.He,\\nalong with Paul,\\nstarted Microsoft in 1975. It was in 1980 that IBM approached Gates and\\nfor help with a special project.\\nGates then developed the Microsoft Disk operating system or MS - DOS.It was a huge success as software developers moved rapidly to become compatible with the IBM computers.MS - DOS has since then been the leader of all operating systems.\\nIn 1985 they introduced the Microsoft Windows Operating system which was compatible to run on a variety of PCs.It was compared with the operating system of Apple,\\nbut Apple OS could run only on Apple machines.\\nBill Gates Quotes\\n� The internet is becoming the town square\\nfor the global village of tomorrow.�\\n�DNA is like a computer program but far,\\nfar more advanced than any software ever created.�\\n�If you think your teacher is tough,\\nwait till youget a boss.�",
-
-        "q3_info": "J.K.Rowling\\nis the creator of the Harry Potter fantasy series,\\none of the most popular book and film franchises in history.\\nBorn in Yate,\\nEngland,\\non July 31,\\n1965,\\nJ.K.Rowling came from humble economic means before writing Harry Potter and the Sorcerer 's Stone, a children'\\ns fantasy novel.The work was an international hit and Rowling wrote six more books in the series,\\nwhich sold into the hundreds of millions and was adapted into a blockbuster film franchise.In 2012,\\nRowling released the non - Potter novel The Casual Vacancy.\\nBy the summer of 2000,\\nthe first three Harry Potter books,\\nHarry Potter and the Sorcerer 's Stone, Harry Potter and the Chamber of Secrets and Harry Potter and the Prisoner of Azkaban earned approximately $480 million in three years, with over 35 million copies in print in 35 languages. In July 2000, Harry Potter and the Goblet of Fire saw a first printing of 5.3 million copies and advance orders of over 1.8 million. After a postponed release date, the fifth installment, Harry Potter and the Order of the Phoenix, hit bookstores in June 2003. The sixth installment, Harry Potter and the Half-Blood Prince, sold 6.9 million copies in the United States in its first 24 hours, the biggest opening in publishing history. Prior to its July 2007 release, the seventh and final installment in the Harry Potter series, Harry Potter and the Deathly Hallows, was the largest ever pre-ordered book at chain stores Barnes & Noble and Borders, and at Amazon.com.\\nRowling,\\nnow Britain 's 13th wealthiest woman�wealthier than even the Queen�does not plan to write any more books in the series, but has not entirely ruled out the possibility. ",
-
-        "q4_info": "Markus Persson\\nCreator of Minecraft\\nPersson sold his gaming company Mojang to Microsoft\\nfor $2.5 billion almost a year ago.\\nHe spent a reported $70 million on an 8 - bedroom,\\n15 - bathroom mansion in Beverley Hills that came complete with a replica James Dean motorbike and a bar stacked with Dom Perignon."
-      },
-
-      "img1": "images\\people\\m3\\chard",
-      "img2": "images\\people\\m3\\billc",
-      "img3": "images\\people\\m3\\rowld",
-      "img4": "images\\people\\m3\\marka",
-
-      "q1": {
-        "title": "Charles Darwin is famous for?",
-        "answersType": "text",
-        "answers": {
-          "a": "The invention of the wheel",
-          "b": "The theory of relativity",
-          "c": "Discovery of the earth being round",
-          "d": "The theory of evolution"
-        },
-        "correct": "d",
-        "location": "null"
-      },
-
-      "q2": {
-        "title": "Select the founder of microsoft?",
-        "answersType": "image",
-        "answers": {
-          "a": "images\\people\\m3\\billa",
-          "b": "images\\people\\m3\\billb",
-          "c": "images\\people\\m3\\billc",
-          "d": "images\\people\\m3\\billd"
-        },
-        "correct": "c",
-        "location": "null"
-      },
-
       "q3": {
-        "title": " Which author is the first ever in history to achieve a net worth of $1 billion.",
-        "answersType": "text",
+        "title": "What does she look like? Find out please",
+        "answersType": "image",
         "answers": {
-          "a": "E.L. James",
-          "b": "J. K. Rowling",
-          "c": "J.R.R Tolkein",
-          "d": "Nora Roberts"
-        },
-        "correct": "d",
-        "location": "null"
-      },
-
-      "q4": {
-        "title": "Who sold there gaming company to microsoft for almost $2.5 Bilion?",
-        "answersType": "text",
-        "answers": {
-          "a": "Markus Persson",
-          "b": "Brian Acton",
-          "c": "Evan Spiegel",
-          "d": "Mark Zuckerberg"
+          "a": "images/people/m1/miria",
+          "b": "images/people/m1/anneb",
+          "c": "images/people/m2/chana",
+          "d": "images/people/m4/jochc"
         },
         "correct": "a",
-        "location": "null"
+        "location": "cav"
       }
     },
 
     "m4": {
-
-      "title": "Course: Social Sciences and Humanities",
-      "noofquestions": "4",
-      "info": {
-
-        "q1_info": "Jochim Dymott\\nPrincipal Lecturer\\nT: +44(0) 20 3506 9572@: dymottj@ westminster.ac.uk\\nA: Room 3.01,\\n4 - 12 Little Titchfield Street,\\nLondon W1W 7 UW\\nJochim Dymott MA(Cantab)\\nPrincipal Lecturer\\nJochim taught in Italy and worked\\nfor The Observer newspaper before qualifying as a solicitor with West End firm Amhurst Brown Colombotti.She joined the firm 's Litigation department and specialised in employment law and general commercial litigation.\\nJochim joined the Westminster Law School in February 2000. She is Course Leader of the Integrated Master 's In Law (M-Law) and the Law School Academic Exchange Coordinator.",
-
-        "q2_info": "Professor Roland Dannreuther\\nDean of the Faculty of Social Sciences and Humanities\\nT: +44(0) 20 3506 9111@: r.dannreuther@ westminster.ac.uk\\nA: RM309,\\n309 Regent Street,\\nLondon,\\nW1B 2 HW\\nI joined the University of Westminster in September 2009 as head of the Department of Politics and International Relations and Professor of International Relations.I am also an International Fellow at the Department of International Relations,\\nTbilisi State University,\\nGeorgia.I was previously Professor of International Relations at the University of Edinburgh(1995 - 2009);Faculty Fellow at the Geneva Centre\\nfor Security Policy(2000 - 02);and Research Associate at the International Institute\\nfor Strategic Studies(1992 - 5).My research revolves around the area of security studies and international relations with a regional focus on Russia,\\nCentral Asia and the Middle East.I also have an interest in the engagement of historical sociology in International Relations.\\n<< BA and MA Teaching >>\\nI am the module leader of SPIR513 International Security which is a second year core module\\nfor the BA International Relations.\\n<< PhD Supervision >>\\nI am also an experienced PhD supervisor and am interested in supervising students in the following areas: security studies;the international relations of Russia,\\nCentral Asia and the Middle East;international politics of energy;and the contribution of historical sociology to International Relations.",
-
-        "q3_info": "Dr Dibyesh Anand\\nHead of Department of Politics and International Relations;Director,\\nCentre\\nfor the Study of Democracy\\nT: +44(0) 20 7911 5000(ext 65159)@: d.anand@ westminster.ac.uk\\nA: room 501 32 - 38 Wells Street,\\nLondon,\\nW1T 3 UW\\nWhile my primary role is as the Head of Department of Politics and International Relations,\\nI am often considered as a curious scholar,\\na lifelong student,\\na passionate lecturer,\\nor a public intellectual.\\nI joined University of Westminster in 2007 as a Reader(Associate Professor\\n  for those used to the non - British system) in International Relations.I moved from University of Bath where I was a lecturer.I did my PhD(1998 - 2002) from the Department of Politics at University of Bristol and the topic was related to Western representations of Tibet and its political and cultural significance.I have never been comfortable within a discipline.While my MA was in International Law and Politics at the University of Hull(1997 - 1998),\\nthe Bachelors was in History from St Stephen� s College,\\nUniversity of Delhi.I could not have pursued my Masters and PhD without scholarships.While the MA was sponsored by British Chevening scholarship,\\nthe PhD was made possible due to University of Bristol and Overseas Research Scholarships.\\nI have shifted places and disciplines,\\nI have experienced elite and non elite as well as religious and secular education,\\nmy ideas emerge as much on Facebook as it does in structured scholarly forums,\\nI indulge in concepts as much as in every day politics.What has remained consistent so far is my desire to produce scholarship that is meaningful to groups and peoples who are often marginalised,\\nminoritised,\\noccupied and suppressed.This desire comes across in my research,\\nacademic writings and public engagement on topics including politics and international relations of Tibetans rendered stateless with Chinese rule,\\nIslamophobia in India,\\nmajoritarian nationalisms,\\npolitics of security and representation,\\nethnic relations in Zanzibar,\\nemergence of China and India as major non - Western powers as well as contested nature of nation - state formations in China and South Asia,\\nBhutan� s international affairs,\\nand the Kashmir conflict.\\nI have authored monographs Geopolitical Exotica: Tibet in Western Imagination,\\nTibet: A Victim of Geopolitics,\\nand Hindu Nationalism in India and the Politics of Fear and published a number of chapters in edited collections and articles in journals.I am currently working on two different manuscripts� one on the disputed Himalayan border of China and India and the other on competing perspectives on Tibetan history,\\npresent and future.\\nI have a significant presence in popular media and a google search\\nfor my name links to a range of forums including comment articles in The Guardian,\\nYouTube videos,\\ncited expert views in newspapers of the USA,\\nUK,\\nChina,\\nIndia and Singapore,\\nand blogs.\\nI have held visiting positions at University of California Berkeley,\\nAustralian National University,\\nCentre\\nfor Bhutan Studies,\\nJawaharlal Nehru University and the Central University of Hyderabad and delivered plenary talks,\\nlectures and seminar papers at institutions in USA,\\nEurope,\\nIndia,\\nBhutan,\\nChina,\\nRussia,\\nSingapore,\\nand Australia.\\nI feel strongly about ethical and engaged scholarship and took over as the Head of Department mainly because I felt I could make a difference to the lives of our students.",
-
-        "q4_info": "Dr Thomas Moore\\nFaculty Director(Learning and Teaching);Principal Lecturer in International Relations\\nT: +44(0) 20 7911 5000 ext 68920@: t.moore1@ westminster.ac.uk\\nA: Room 517,\\n32 - 38 Wells Street,\\nLondon,\\nW1T 3 UW\\nThomas Moore is Director of Learning and Teaching within the Faculty of Social Sciences and Humanities.He is also Principal Lecturer in the Department of Politics and International Relations and course leader\\nfor BA(Hons) International Relations.\\nDr Moore was awarded a University of Westminster Teaching Fellowship in 2011 - 2012 in recognition of his contribution to learning and teaching.He holds a PhD from the University of Edinburgh and a BA(Hons) in Government from the University of Sydney.Dr Moore is a past recipient of the Professor Joan Rydon scholarship and the Hannah Fullerton Travelling Scholarship.Dr Moore was also a past recipient of the University of Sydney Medal.Dr Moore has previously taught at the University of Edinburgh,\\nUniversity of Stirling and the Office of Lifelong Learning. ? ?\\nDr Moore� s research explores the geopolitical and ethical dimensions of contemporary just war theory.With an increasing focus on theories of international security,\\nrecent publications have been concerned with the philosophical foundations of contemporary security debates and humanitarian claims within international discourse.\\nDr Moore is keen to supervise PhD students in the field of international political theory,\\nincluding questions about the ethical dimensions of International Relations.Dr Moore is available to comment on ethical questions within international politics,\\nincluding military ethics and the politics of state violence."
-      },
-
-      "img1": "images\\people\\m4\\jochc",
-      "img2": "images\\people\\m4\\deana",
-      "img3": "images\\people\\m4\\dibya",
-      "img4": "images\\people\\m4\\thomad",
-
+      "title": "Social Sciences and Humanities",
+      "noofquestions": "2",
+      "info": "Dr Miriam Dwek<br>Senior Lecturer in Biochemistry,<br>Group Leader - Against Breast Cancer Research Unit<br>T: +44(0) 20 7911 5000 ext 64158@: m.v.dwek@ westminster.ac.uk<br>  I undertook my BSc in Applied Biology,<br>in the part - time mode,<br>whilst working at Smith & Nephew Medical,<br>Hull.<br>On graduation I joined the biotech company Oxford Glycosystems(subsequently part of the CellTech group) -<br>my first foray into the field of Glycobiology.My PhD was undertaken at UCL with Dr Leathem on glycosylation changes in breast cancer.<br>After post - doctoral work with Dr Leathem I moved two blocks north of UCL to the University of Westminster as a Senior Lecturer andset up my own lab( in 2002).<br>I am the Principal Investigator of the Against Breast Cancer Unit at the University of Westminster,<br>currently comprising 6 researchers and 2 research administrators.Our research work continues in the area of Cancer Glycobiology.<br>Most of the work has been focussed on proteins that show alterations in glycosylation in cancer using HPLC,<br>lectin and proteomic technologies with a view to developing blood and urine tests<br>for breast cancer.<br>The aim is to develop strategies<br>for targeting breast cancer and boosting the immune response to carbohydrate antigens.<br>A further aspect of the research is the interplay between diet and lifestyle and outcome following breast cancer.",
+      "img1": "images/people/m1/miria",
       "q1": {
-        "title": "Who is Course Leader of the Integrated Master's In Law (M-Law)?",
+        "title": "Find out what the Course Leader of the Integrated Master's In Law (M-Law) looks like, then select a pictue",
         "answersType": "image",
         "answers": {
-          "a": "images\\people\\m4\\jocha",
-          "b": "images\\people\\m4\\jochb",
-          "c": "images\\people\\m4\\jochc",
-          "d": "images\\people\\m4\\jochd"
+          "a": "images/people/m4/jocha",
+          "b": "images/people/m4/jochb",
+          "c": "images/people/m4/jochc",
+          "d": "images/people/m4/jochd"
         },
         "correct": "c",
         "location": "lts"
       },
-
       "q2": {
-        "title": "Who is the Dean of the Faculty of Social Sciences and Humanities?",
+        "title": "Then who is the Dean of the Faculty of Social Sciences and Humanities? Find someone that might know",
         "answersType": "text",
         "answers": {
           "a": "Professor Roland Dannreuther",
@@ -229,7 +152,6 @@
         "correct": "a",
         "location": "lts"
       },
-
       "q3": {
         "title": "Who is the Head of Department for Politics and International Relations?",
         "answersType": "text",
@@ -242,7 +164,6 @@
         "correct": "c",
         "location": "lts"
       },
-
       "q4": {
         "title": "Who is Dr Thomas Moore?",
         "answersType": "text",
