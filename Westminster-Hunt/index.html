@@ -68,36 +68,44 @@
 </body>
 
 <script>
-	width = window.innerWidth;
-	if (width >= 737){
-		// tablet
-		console.log("tablet");
-		$.ajax({
-		  url: "views/panel-contents.html"
-		})
-	  .done(function( data ) {
-			$('#panel-tablet').html(data);
-	  });
-		// load AJAX for everything
-	}
-	else {
-		// phone
-		console.log("phone");
-		$.ajax({
-		  url: "views/panel-contents.html"
-		})
-	  .done(function( data ) {
-			$('#defaultpanel').html(data);
-	  });
-	}
-	console.log(width);
-	$('#test').click( function() {
-		$.ajax({
-			url: "views/missionList.html"
-		})
-		.done(function( data ) {
-			//changePageTitle("Mission List");
-			$('#content-frame').html(data);
+	$( document ).ready(function() {
+		width = window.innerWidth;
+		if (width >= 737){
+			// tablet
+			console.log("tablet");
+			$.ajax({
+			  url: "views/panel-contents.html"
+			})
+		  .done(function( data ) {
+				$('#panel-tablet').html(data);
+
+				setTimeout(function() {
+					// set width of #content-frame
+					var customW = width - $('#panel-tablet').width() - 2*parseInt($('#panel-tablet').css('padding'));
+					$('#content-frame').css('padding', '0 .5em').css('width', customW);
+				}, 1);
+		  });
+			// load AJAX for everything
+		}
+		else {
+			// phone
+			console.log("phone");
+			$.ajax({
+			  url: "views/panel-contents.html"
+			})
+		  .done(function( data ) {
+				$('#defaultpanel').html(data);
+		  });
+		}
+		console.log(width);
+		$('#test').click( function() {
+			$.ajax({
+				url: "views/missionList.html"
+			})
+			.done(function( data ) {
+				//changePageTitle("Mission List");
+				$('#content-frame').html(data);
+			});
 		});
 	});
 

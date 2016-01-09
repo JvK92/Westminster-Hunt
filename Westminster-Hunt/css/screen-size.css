@@ -155,15 +155,19 @@
     display: block;
   }
   div.tab ul {
-    display: inline-flex;
     padding: 0;
   }
   div.tab ul li {
-    display: inline-block;
+    display: inline-flex;
     margin: 1em;
   }
   div.tab ul li div span {
     text-align: center;
     display: block;
+  }
+  /* each line should have max four elemrnts */
+  div.tab ul li:nth-of-type(2n+4):after {
+    content:"\A";
+    white-space:pre;
   }
 }

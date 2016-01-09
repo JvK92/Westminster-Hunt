@@ -5,10 +5,10 @@
 	allowfullscreen>
 </iframe>
 <script>
-	var w = screen.width;
-	if (w > 736) {
-		var customW = w - $('#panel-tablet').width() - 2*parseInt($('#panel-tablet').css('padding')) -2;
-		$('#content-frame').css('padding', 0).css('width', customW);
-		$('#content-frame iframe').width(customW).height($('#content-frame').height());
+	if (width >= 737){
+		// the map needs to take all the space
+		var w = $('#content-frame').width() + parseInt($('#content-frame').css('padding-left')) + parseInt($('#content-frame').css('padding-right')) - 1;
+		var h = $('#content-frame').height()+ parseInt($('#content-frame').css('padding-top')) + parseInt($('#content-frame').css('padding-bottom'));
+		$('#content-frame iframe').width(w).height(h);
 	}
 </script>
