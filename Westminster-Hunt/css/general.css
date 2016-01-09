@@ -189,6 +189,14 @@ div.answer-btn-active:active{
   border-color: #72cd28;
 }
 
+/* mission info page */
+#img1, #img2, #img3, #img4 {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-height: 500px;
+}
+
 /*----- Tabs -----*/
 .tabs {
     width:100%;

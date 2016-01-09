@@ -124,20 +124,12 @@
     background-repeat: no-repeat;
     margin: 0 auto;
   }
-  /*
-  .question-table-td-btn {
-    width: 1%;
-    vertical-align: bottom;
+  .question-img{
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    max-height: 300px;
   }
-  .question-table-td-score {
-    text-align: center;
-    padding-bottom: 10%;
-    vertical-align: top;
-  }
-  .question-table-td-score span{
-    font-weight: bold;
-  }
-  */
 
 
   /* end pannel tablet */

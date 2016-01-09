@@ -83,6 +83,7 @@
       url: "views/missionList.html"
     })
     .done(function(data) {
+      changePageTitle(currentCategory);
       $('#content-frame').html(data);
       $('li a[href="#tab-' + currentCategory + '"]').click();
 
@@ -156,6 +157,12 @@
     $('#mission-categories li a').unbind();
   };
 
+  appendToPageTitle = function(appendMe) {
+    var title = $('#title').html();
+    title += appendMe;
+    changePageTitle(title);
+  }
+
   changePageTitle = function(newName) {
     $('#title').html(newName);
   }
@@ -196,10 +203,19 @@
     // console.log(missionId);
 
     var mission = eval('retrievedCategory' + '.questions.' + missionId + '.info');
+    var imgs = eval('retrievedCategory' + '.questions.' + missionId + '.imgs');
     // append favourite button
     mission += '<div id="fav-btn" class="my-btn" style="margin: 1em auto;">Favourite</div>';
     // add mission on the pages
     $('#content-frame').html(mission);
+
+    // display images
+    for (var key in imgs){
+      $('#'+key).attr('src', imgs[key]);
+    };
+
+    //cghange page title
+    appendToPageTitle(' > ' + eval('retrievedCategory' + '.questions.' + missionId + '.title'));
 
     // get state for btn and set it
     if (eval('favourites.' + currentCategory + '.' + missionId)) $('#fav-btn').addClass('fav-btn-true');
@@ -227,6 +243,7 @@
     // populates question view
     if (id < 1) return;
     currentQuestion = eval("retrievedCategory.questions." + mission + '.q' + id);
+    var img = currentQuestion.image;
     if (currentQuestion.answersType == 'text'){
       // answers are text
       $('#answers-pic').hide();
@@ -256,6 +273,7 @@
       $("#opt-d").attr('src', 'models/' + currentQuestion.answers.d);
       correctAnswer = currentQuestion.correct;
     }
+    if (img) $('#question').before("<img class='question-img' src='" + img + "'>");
   };
   addToScoreAndUpdate = function() {
     // not used

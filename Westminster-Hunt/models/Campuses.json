@@ -5,25 +5,17 @@
 
       "title": "Structures & Peices",
       "noofquestions": "3",
-      "info": {
+      "info": "<p><img id='img1'/><br>The memorial is of remmberence of Queen Mary's visit for the opening of the Little Titchford Street campus in 1929. 4 - 12 Little Titchfield Street was known at the time as the Great Portland Street Annexe, was opened for the craft schools of the Regent Street Polytechnic.</p><p><img id='img2'/><br>The painting is awesome.</p><p><img id='img3'/><br>Ben Joiner an artist of the University of Westminster designed the dramatic arresting metal sculptures seen outsisde the Cavendish campus.</p>",
 
-
-        "q1_info": "The memorial is of remmberence of Queen Mary 's visit for the opening of the Little Titchford Street campus in 1929.\\n        4 - 12 Little Titchfield Street was known at the time as the Great Portland Street Annexe,\\n        was opened\\n        for the craft schools of the Regent Street Polytechnic.\\n        ",
-
-        "q2_info": " ",
-
-
-        "q3_info": " Ben Joiner an artist of the University of Westminster designed the dramatic arresting metal sculptures seen outsisde the Cavendish campus "
+      "imgs": {
+        "img1": "models/images/places/m1/quen.jpg",
+        "img2": "models/images/places/m1/pain.jpg",
+        "img3": "models/images/places/m1/scul.jpg"
       },
 
-
-      "img1": "images/places/m1/quen",
-      "img2": "images/places/m1/pain",
-      "img3": "images/places/m1/scul",
-
       "q1": {
-        "question": "Where is this memorial located?",
-        "image": "images/places/m1/quen/memo",
+        "title": "Where is this memorial located?",
+        "image": "models/images/places/m1/quen.jpg",
         "answersType": "text",
         "answers": {
           "a": "Outside the campus entrance",
@@ -36,8 +28,8 @@
       },
 
       "q2": {
-        "question": "Where can this painting be found?",
-        "image": "images/places/m1/quen/memo",
+        "title": "Where can this painting be found?",
+        "image": "models/images/places/m1/pain.jpg",
         "answersType": "text",
         "answers": {
           "a": "Outside Regents campus",
@@ -50,8 +42,8 @@
       },
 
       "q3": {
-        "question": "Have you seen this sculpture anywhere?",
-        "image": "images/places/m1/quen/scul",
+        "title": "Have you seen this sculpture anywhere?",
+        "image": "models/images/places/m1/scul.jpg",
         "answersType": "text",
         "answers": {
           "a": "Regents Street",
@@ -71,9 +63,7 @@
       "title": "Food & Entertainment",
       "noofquestions": "4",
       "info": {
-
-
-        "q1_info": "         Regent Street Univeristy Student Gym\\n        The University of Westminster believes in it 's students and supports them in their drive, ambitions and determinsation\\n        Located in the heart of London,\\n        just a short walk from bustling Oxford Street,\\n        is Regent Street gym.\\n\\n        >> Facilities\\n        Our gym offers cardio and weights facilities,\\n        and general floor space\\n        for stretching or free weights.we also have clean and pleasant changing,\\n        shower and locker facilities,\\n        as well as towels to hire.\\n        Four highly qualified and experienced sports and exercise scientists are on hand to offer fitness assessments,\\n        body composition analysis,\\n        personal training,\\n        nutrition and weight loss advice,\\n        and prepare tailored fitness plans.\\n\\n        >> Classes\\n        The classes we offer at Regent Street gym include spin,\\n        TRX,\\n        Zumba,\\n        Boxfit,\\n        Pilates and yoga.\\n\\n\\n        Student opening hours\\n\\n        Monday to Thursday: 8 am� 9 pm\\n        Friday: 8 am� 7.30 pm\\n        Saturday: closed\\n        Sunday: 11.30 am� 3 pm ",
+        "q1_info": "Regent Street Univeristy Student Gym\\n        The University of Westminster believes in it 's students and supports them in their drive, ambitions and determinsation\\n        Located in the heart of London,\\n        just a short walk from bustling Oxford Street,\\n        is Regent Street gym.\\n\\n        >> Facilities\\n        Our gym offers cardio and weights facilities,\\n        and general floor space\\n        for stretching or free weights.we also have clean and pleasant changing,\\n        shower and locker facilities,\\n        as well as towels to hire.\\n        Four highly qualified and experienced sports and exercise scientists are on hand to offer fitness assessments,\\n        body composition analysis,\\n        personal training,\\n        nutrition and weight loss advice,\\n        and prepare tailored fitness plans.\\n\\n        >> Classes\\n        The classes we offer at Regent Street gym include spin,\\n        TRX,\\n        Zumba,\\n        Boxfit,\\n        Pilates and yoga.\\n\\n\\n        Student opening hours\\n\\n        Monday to Thursday: 8 am� 9 pm\\n        Friday: 8 am� 7.30 pm\\n        Saturday: closed\\n        Sunday: 11.30 am� 3 pm ",
 
         "q2_info": "        Gym Prices: ",
 
@@ -85,13 +75,15 @@
       },
 
 
-      "img1": "images/places/m2/gym",
-      "img2": "images/places/m2/gymc",
-      "img3": "images/places/m2/cafe",
-      "img4": "images/places/m2/gall",
+      "imgs": {
+        "img1": "models/images/places/m2/gym.jpg",
+        "img2": "models/images/places/m2/gymc.jpg",
+        "img3": "models/images/places/m2/cafe.jpg",
+        "img4": "models/images/places/m2/gall.jpg"
+      },
 
       "q1": {
-        "question": "Where is the Gym located in Regents?",
+        "title": "Where is the Gym located in Regents?",
         "answersType": "text",
         "answers": {
           "a": "Ground floor",
@@ -105,7 +97,7 @@
 
 
       "q2": {
-        "question": "How much is gym membership monthly, if you pay for the whole year?",
+        "title": "How much is gym membership monthly, if you pay for the whole year?",
         "answersType": "text",
         "answers": {
           "a": "�10",
@@ -118,7 +110,7 @@
       },
 
       "q3": {
-        "question": "The Gallery next to Regents campus is a museum open to the public?",
+        "title": "The Gallery next to Regents campus is a museum open to the public?",
         "answersType": "text",
         "answers": {
           "a": "true",
@@ -128,8 +120,8 @@
         "location": "rgt"
       },
 
-      "q3": {
-        "question": "What is the correct name for the Caf� found at Cavendish?",
+      "q4": {
+        "title": "What is the correct name for the Caf� found at Cavendish?",
         "answersType": "text",
         "answers": {
           "a": "Cafertino",
@@ -159,13 +151,14 @@
         "q3_info": "          Lecture Facilities in Little Titchford Street\\n          Lecture Theatre - > Second Floor,\\n          2.05\\n          Lecture Theatre - > Third Floor,\\n          3.07\\n          New Lecture Theatre - > Ground Floor\\n          Portland Hall - > Basement,\\n          B2 "
       },
 
-
-      "img1": "images/places/m3/portl",
-      "img2": "images/places/m3/lltd",
-      "img3": "images/places/m3/ltsb",
+      "imgs": {
+        "img1": "models/images/places/m3/portl.jpg",
+        "img2": "models/images/places/m3/lltd.jpg",
+        "img3": "models/images/places/m3/ltsb.jpg"
+      },
 
       "q1": {
-        "question": "On what floor is the Portland Hall situated on?",
+        "title": "On what floor is the Portland Hall situated on?",
         "answersType": "text",
         "answers": {
           "a": "Basement B4",
@@ -179,20 +172,20 @@
 
 
       "q2": {
-        "question": "Choose the correct image of the Large Lecture Theatre found in Cavendish",
+        "title": "Choose the correct image of the Large Lecture Theatre found in Cavendish",
         "answersType": "image",
         "answers": {
-          "a": "images/places/m3/llta",
-          "b": "images/places/m3/lltb",
-          "c": "images/places/m3/lltc",
-          "d": "images/places/m3/lltd"
+          "a": "models/images/places/m3/llta.jpg",
+          "b": "models/images/places/m3/lltb.jpg",
+          "c": "models/images/places/m3/lltc.jpg",
+          "d": "models/images/places/m3/lltd.jpg"
         },
         "correct": "d",
         "location": "cav"
       },
 
       "q3": {
-        "question": "How many Lecture facilities are there in Little Titchford Street?",
+        "title": "How many Lecture facilities are there in Little Titchford Street?",
         "answersType": "text",
         "answers": {
           "a": "3",
@@ -212,22 +205,16 @@
       "noofquestions": "4",
       "info": {
 
-        "q1_info": "Interpretation Practice Rooms\\n            Situated on the upper fourth floor of 301 Regent Street,\\n            a dedicated learning area\\n            for Modern Languages students has been created.\\n            The space encourages greater interaction between staff and students and includes new state - of - the - art language labs\\n            for Interpreting and Translation students plus attractive offices for staff.",
-
-        "q2_info": "",
-
-        "q3_info": "",
-
-        "q4_info": ""
+        "q1_info": "Interpretation Practice Rooms\\n            Situated on the upper fourth floor of 301 Regent Street,\\n            a dedicated learning area\\n            for Modern Languages students has been created.\\n            The space encourages greater interaction between staff and students and includes new state - of - the - art language labs\\n            for Interpreting and Translation students plus attractive offices for staff."
       },
 
-      "img1": "images/places/m4/inter",
-      "img2": "null",
-      "img3": "images/places/m4/sunr",
-      "img4": "null",
+      "imgs": {
+        "img1": "models/images/places/m4/inter.jpg",
+        "img3": "models/images/places/m4/sunr.jpg"
+      },
 
       "q1": {
-        "question": "Find the floor with the new interpretation practice classrooms?",
+        "title": "Find the floor with the new interpretation practice classrooms?",
         "answersType": "text",
         "answers": {
           "a": "Upper fourth floor",
@@ -241,7 +228,7 @@
 
 
       "q2": {
-        "question": "Which Campus and locations contain macs for students to use?",
+        "title": "Which Campus and locations contain macs for students to use?",
         "answersType": "text",
         "answers": {
           "a": "Cavendish, library & clipstone 4th floor",
@@ -254,7 +241,7 @@
       },
 
       "q3": {
-        "question": "Which room contains the Sunray computer facilities in Cavendish?",
+        "title": "Which room contains the Sunray computer facilities in Cavendish?",
         "answersType": "text",
         "answers": {
           "a": "Clip 3.108",
@@ -267,7 +254,7 @@
       },
 
       "q4": {
-        "question": "Students can play pool and table tennis for free in Regents campus?",
+        "title": "Students can play pool and table tennis for free in Regents campus?",
         "answersType": "text",
         "answers": {
           "a": "true",
