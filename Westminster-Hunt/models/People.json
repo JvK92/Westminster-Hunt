@@ -24,9 +24,9 @@
         "title": "Select the correct picture of Philip Tworga?",
         "answersType": "image",
         "answers": {
-          "a": "images/people/m1/anneb.jpg",
-          "b": "images/people/m1/Daphne.jpg",
-          "c": "images/people/m1/epi.jpg",
+          "a": "images/people/m1/phila.jpg",
+          "b": "images/people/m1/philb.jpg",
+          "c": "images/people/m1/philc.jpg",
           "d": "images/people/m1/phild.jpg"
         },
         "correct": "d",
@@ -52,7 +52,7 @@
         "info": "<img id='img1'/>Professor Petts has been Vice - Chancellor of the University of Westminster since 1 August 2007.<br>He studied physical geography and geology at the University of Liverpool and gained his PhD at the University of Southampton.<br>He was appointed to a lectureship at Loughborough University in 1979,<br>was awarded a chair in 1989,<br>and became head of department in 1991.<br>In 1994 he moved to the University of Birmingham as Professor of Physical Geography and Director of Environmental Research and Management.<br>Two years later,<br>he founded that University� s Centre<br>for Environmental Research and Training(CERT).<br>He was appointed Pro Vice - Chancellor at Birmingham in 2002,<br>before taking up his appointment as Vice - Chancellor at University of Westminster.<br><br><img id='img2'/>Lady Sorrell<br>Chancellor<br>Lady Sorrell is co - founder and co - chair of the Sorrell Foundation,<br>which was established in 1999,<br>to foster confidence and creativity in young people.<br>In her celebrated career,<br>Frances has worked with thousands of school pupils through the Foundation� s initiatives which provide new pathways into the creative industries.<br>Prior to establishing the Sorrell Foundation with her husband,<br>Sir John Sorrell,<br>Frances(ne� Newell) made her name in business as co - founder of Newell and Sorrell.<br>one of Europe� s biggest and most successful design businesses.As creative director at the organisation Frances won over 100 awards<br>for creativity and effectiveness.<br>The Chancellor is called upon<br>for ceremonial duties and acts as ambassador<br>for the University whenever possible.",
 
         "imgs": {
-          "img1": "images/people/m2/viceb.jpg",
+          "img1": "images/people/m2/viceb-full.jpg",
           "img2": "images/people/m2/chana.jpg"
         },
 
