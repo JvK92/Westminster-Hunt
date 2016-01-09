@@ -138,7 +138,7 @@
     });
     $('#tab-' + currentCategory + ' ul li div.open').click(function() {
       console.log('done chest');
-      $('#content-frame').html(displayMissionReward($(this).attr('id')));
+      displayMissionReward($(this).attr('id'));
     });
   };
   chestRemoveOnClick = function() {
@@ -181,7 +181,7 @@
     }
     else {
       // end of quiz
-      $('#content-frame').html(displayMissionReward());
+      displayMissionReward()
       setMissionAsDone();
       unsetGlobalQuizElements();
     }
@@ -194,7 +194,32 @@
     console.log(retrievedCategory);
     console.log('cm');
     console.log(missionId);
+
     var mission = eval('retrievedCategory' + '.questions.' + missionId + '.info');
+    // append favourite button
+    mission += '<div id="fav-btn" class="my-btn" style="margin: 1em auto;">Favourite</div>';
+    // add mission on the pages
+    $('#content-frame').html(mission);
+
+    // get state for btn and set it
+    if (eval('favourites.' + currentCategory + '.' + missionId)) $('#fav-btn').addClass('fav-btn-true');
+    else $('#fav-btn').addClass('fav-btn-false');
+
+    $("#fav-btn").click(function() {
+      // fav on click event
+      if ($(this).hasClass('fav-btn-false')) {
+        // add to favourites
+        $(this).removeClass('fav-btn-false').addClass('fav-btn-true');
+        eval('favourites.' + currentCategory + '.' + missionId + ' = true');
+      }
+      else if ($(this).hasClass('fav-btn-true')) {
+        // remove from favourites
+        $(this).removeClass('fav-btn-true').addClass('fav-btn-false');
+        eval('delete favourites.' + currentCategory + '.' + missionId);
+      }
+      localStorage.setItem('fav', JSON.stringify(favourites));
+    });
+
     return mission;
   };
 
