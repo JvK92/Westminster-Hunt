@@ -56,10 +56,9 @@
     background-color: #2f76d3 !important;
     color: white !important;
   }
-
   #nav-buttons{
     position: absolute;
-    bottom: 0;
+    bottom: 1%;
     width: 100%;
     left: 0;
     right: 0;
@@ -68,13 +67,16 @@
   #nav-buttons tr td{
     width: 50%;
   }
-  #nav-buttons tr td::after{
-    /* background-image: blue icon */
+  #nav-buttons tr td span.glyphicon {
+    display: block;
+    font-size: 3em;
+    margin-bottom: .2em;
+    margin-top: .5em;
   }
 
   /* Question page */
   .center-page{
-    top: 5%;
+    top: 1%;
     left: 5%;
     right: 5%;
     bottom: 5%;
@@ -130,9 +132,12 @@
     max-width: 70%;
     max-height: 300px;
   }
+  img#opt-a, img#opt-b, img#opt-c, img#opt-d {
+    width: 200px;
+    height: 200px;
+  }
 
 
-  /* end pannel tablet */
   .phone-elem{
     display: none !important;
   }

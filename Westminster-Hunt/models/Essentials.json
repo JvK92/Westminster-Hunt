@@ -7,21 +7,21 @@
       "noofquestions": "3",
       "info": {
 
-        "q1_info": "Mitigating Circumstances\\n\\n        Mitigating Circumstances(MCs) are serious unforeseen,\\n        unpreventable circumstances that significantly disrupt student performance in assessment.\\n\\n        As a student,\\n        you are expected to plan your work so you can meet assessment deadlines at the same time as other obligations you may have both inside and outside the University.\\n        The mitigating circumstances process should only be used\\n        if you experience significant disruption to your studies due to circumstances that were unforeseen and out of your control.\\n        Colds,\\n        throat infections,\\n        minor ailments and other day - to - day conditions will not be considered as grounds\\n        for submission of a mitigating circumstances claim,\\n        even\\n        if supported by documentary evidence from a medical practitioner.\\n        There are four absolute conditions\\n        for the acceptance of an MC claim,\\n        and failure to meet one or more of these will mean your claim is rejected.Your original,\\n        independent documentary evidence must demonstrate that the circumstances:\\n\\n          (1) Were unforeseen(2) Were out of your control and could not have been prevented(3) Relate directly to the timing of the assessment(4) Meet the relevant specific conditions relating to documentary evidence ",
+        "q1_info": "Mitigating Circumstances<br><br>        Mitigating Circumstances(MCs) are serious unforeseen,<br>        unpreventable circumstances that significantly disrupt student performance in assessment.<br><br>        As a student,<br>        you are expected to plan your work so you can meet assessment deadlines at the same time as other obligations you may have both inside and outside the University.<br>        The mitigating circumstances process should only be used<br>        if you experience significant disruption to your studies due to circumstances that were unforeseen and out of your control.<br>        Colds,<br>        throat infections,<br>        minor ailments and other day - to - day conditions will not be considered as grounds<br>        for submission of a mitigating circumstances claim,<br>        even<br>        if supported by documentary evidence from a medical practitioner.<br>        There are four absolute conditions<br>        for the acceptance of an MC claim,<br>        and failure to meet one or more of these will mean your claim is rejected.Your original,<br>        independent documentary evidence must demonstrate that the circumstances:<br><br>          (1) Were unforeseen(2) Were out of your control and could not have been prevented(3) Relate directly to the timing of the assessment(4) Meet the relevant specific conditions relating to documentary evidence ",
 
-        "q2_info": "\\n        Timetabling\\n\\n        CMISGo is the University of Westminster� s timetabling and room booking system.\\n        You can access your timetable via the webpage or subscribe to your timetable in the calendar app on your smartphone or tablet,\\n        or via Outlook or Google calendars.\\n\\n        ACCESS YOUR TIMETABLE ON THE WEB\\n        1. Go to westminster.ac.uk / timetabling\\n        2. Click on the timetable link and sign in with your username and password.\\n        3. Use the left and right arrows to move between weeks.\\n        4. Change the view to day or month via the timetable menu.\\n        5. Click on an event to display more information.\\n\\n        SUBSCRIBE TO YOUR TIMETABLE ON YOUR SMARTPHONE,\\n        TABLET OR PERSONAL CALENDAR\\n        1. Go to westminster.ac.uk / timetabling\\n        2. Click on the My Timetable link and sign in with your username and password.\\n        3. Under the Administration menu,\\n        go to My Mobile and click the Create Link button.\\n        4. Copy the whole link,\\n        then click on the� help� icon\\n        for instructions on how toset up your feed on your chosen device.\\n        ",
+        "q2_info": "<br>        Timetabling<br><br>        CMISGo is the University of Westminster� s timetabling and room booking system.<br>        You can access your timetable via the webpage or subscribe to your timetable in the calendar app on your smartphone or tablet,<br>        or via Outlook or Google calendars.<br><br>        ACCESS YOUR TIMETABLE ON THE WEB<br>        1. Go to westminster.ac.uk / timetabling<br>        2. Click on the timetable link and sign in with your username and password.<br>        3. Use the left and right arrows to move between weeks.<br>        4. Change the view to day or month via the timetable menu.<br>        5. Click on an event to display more information.<br><br>        SUBSCRIBE TO YOUR TIMETABLE ON YOUR SMARTPHONE,<br>        TABLET OR PERSONAL CALENDAR<br>        1. Go to westminster.ac.uk / timetabling<br>        2. Click on the My Timetable link and sign in with your username and password.<br>        3. Under the Administration menu,<br>        go to My Mobile and click the Create Link button.<br>        4. Copy the whole link,<br>        then click on the� help� icon<br>        for instructions on how toset up your feed on your chosen device.<br>        ",
 
-        "q3_info": "IWestminster mobile app\\n        IWestminster is a suite of mobile services available to students on the go.\\n        It 's available for iOS, Android and smartphone access via a browser.\\n\\n        Installing the app\\n\\n        � Download iWestminster from the App Store� Download iWestminster from Google Play\\n\\n        Don 't have an iOS or Android device? You can still access iWestminster from your smartphone browser at mobile-app.westminster.ac.uk\\n\\n        Features: �Password Self - service� Library� My Course� Staff Directory� Find a Friend� Campus Maps� Find a PC� Student guide� News / Events� Tube status"
+        "q3_info": "IWestminster mobile app<br>        IWestminster is a suite of mobile services available to students on the go.<br>        It 's available for iOS, Android and smartphone access via a browser.<br><br>        Installing the app<br><br>        � Download iWestminster from the App Store� Download iWestminster from Google Play<br><br>        Don 't have an iOS or Android device? You can still access iWestminster from your smartphone browser at mobile-app.westminster.ac.uk<br><br>        Features: �Password Self - service� Library� My Course� Staff Directory� Find a Friend� Campus Maps� Find a PC� Student guide� News / Events� Tube status"
+      },
+
+      "imgs": {
+        "img2": "images/essentials/m1/timet.jpg",
+        "img3": "images/essentials/m1/uapp.jpg"
       },
 
 
-      "img1": "null",
-      "img2": "images/essentials/m1/timet",
-      "img3": "images/essentials/m1/uapp",
-
-
       "q1": {
-        "title": "Choose the best definition for Mitigating Circumstances\\nHint* Ask the registry",
+        "title": "Choose the best definition for Mitigating Circumstances<br>Hint* Ask the registry",
         "answersType": "text",
         "answers": {
           "a": "Serious, medical circumstances that prevent students from completing assessments.",
@@ -34,7 +34,7 @@
       },
 
       "q2": {
-        "title": "Student timetables can be found...\\nHint* Ask the students",
+        "title": "Student timetables can be found...<br>Hint* Ask the students",
         "answersType": "text",
         "answers": {
           "a": "Via timetabling on Westminster�s student homepage",
@@ -47,11 +47,11 @@
       },
 
       "q3": {
-        "title": "Enrolment and Course information is found using the university app?\\nHint* Need help ask the registry",
+        "title": "Enrolment and Course information is found using the university app?<br>Hint* Need help ask the registry",
         "answersType": "text",
         "answers": {
           "a": "True",
-          "b": "False "
+          "b": "False"
         },
         "correct": "a",
         "location": "null"
@@ -65,24 +65,25 @@
       "noofquestions": "4",
       "info": {
 
-        "q1_info": "Faculty of Social Sciences and Humanities\\n\\n        Faculty Registry Office\\n        Regent Campus\\n        University of Westminster\\n        Ground Floor\\n        32 - 38 Wells Street\\n        London W1T 3 UW\\n\\n        T: 020 7911 5000 ext.69800@: sshregistry@ westminster.ac.uk\\n\\n          Opening hours: Term - time: Mo - Thu: 10.30 am - 6 pm,\\n        Fri: 10.30 am - 2 pm\\n        Non term - time: Mo - Thu: 10.30 am - 12 pm,\\n        3.30 pm - 5 pm,\\n        Fri: 10.30 am - 12 pm,\\n        2.30 pm - 3.30 pm ",
+        "q1_info": "Faculty of Social Sciences and Humanities<br><br>        Faculty Registry Office<br>        Regent Campus<br>        University of Westminster<br>        Ground Floor<br>        32 - 38 Wells Street<br>        London W1T 3 UW<br><br>        T: 020 7911 5000 ext.69800@: sshregistry@ westminster.ac.uk<br><br>          Opening hours: Term - time: Mo - Thu: 10.30 am - 6 pm,<br>        Fri: 10.30 am - 2 pm<br>        Non term - time: Mo - Thu: 10.30 am - 12 pm,<br>        3.30 pm - 5 pm,<br>        Fri: 10.30 am - 12 pm,<br>        2.30 pm - 3.30 pm ",
 
-        "q2_info": "        Faculty of Science and Technology\\n\\n        Faculty Registry Office\\n        Cavendish Campus\\n        University of Westminster\\n        115 New Cavendish Street\\n        London W1W 6 UW\\n        T: 020 7911 5884\\n        E: fstregistry@ westminster.ac.uk\\n\\n          Opening hours: Term - time: Mo - Thu: 11 am - 5.30 pm,\\n        Fri: 11 am - 2 pm\\n        Non term - time: Mo - Fri: 11 am - 2 pm ",
+        "q2_info": "        Faculty of Science and Technology<br><br>        Faculty Registry Office<br>        Cavendish Campus<br>        University of Westminster<br>        115 New Cavendish Street<br>        London W1W 6 UW<br>        T: 020 7911 5884<br>        E: fstregistry@ westminster.ac.uk<br><br>          Opening hours: Term - time: Mo - Thu: 11 am - 5.30 pm,<br>        Fri: 11 am - 2 pm<br>        Non term - time: Mo - Fri: 11 am - 2 pm ",
 
-        "q3_info": "        Cavendish Finance Office\\n\\n        (For Science and Technology, Westminster Law School, and Social Sciences and Humanities)\\n\\n        115 New Cavendish Street\\n        London W1W 6 UW\\n        T: 020 7911 5045\\n        E: cav - finance@ westminster.ac.uk\\n\\n          Opening Hours\\n        Monday to Friday(11 am to 2 pm)        ",
+        "q3_info": "        Cavendish Finance Office<br><br>        (For Science and Technology, Westminster Law School, and Social Sciences and Humanities)<br><br>        115 New Cavendish Street<br>        London W1W 6 UW<br>        T: 020 7911 5045<br>        E: cav - finance@ westminster.ac.uk<br><br>          Opening Hours<br>        Monday to Friday(11 am to 2 pm)        ",
 
-        "q4_info": "        Failure to pay fees\\n\\n        Please note that\\n        if you do not pay your fees by the appropriate due dates,\\n        your student ID card may be deactivated and / or other sanctions applied.This may mean that you no longer have access to University facilities,\\n        including its buildings and online resources.\\n        The Student Funding Office provides help with any enquiries about loans,\\n        grants,\\n        and bursary payments,\\n        as well as queries about funding\\n        for US students and applications to the Westminster Additional Grants Scheme(formerly Access to Learning Fund).\\n\\n        Student Funding Office\\n\\n        T: +44 0203 506 6989 ext 66989@: studentfunding@ westminster.ac.uk\\n        A: First Floor,\\n        101 New Cavendish Street\\n        London W1W 6 XH "
+        "q4_info": "        Failure to pay fees<br><br>        Please note that<br>        if you do not pay your fees by the appropriate due dates,<br>        your student ID card may be deactivated and / or other sanctions applied.This may mean that you no longer have access to University facilities,<br>        including its buildings and online resources.<br>        The Student Funding Office provides help with any enquiries about loans,<br>        grants,<br>        and bursary payments,<br>        as well as queries about funding<br>        for US students and applications to the Westminster Additional Grants Scheme(formerly Access to Learning Fund).<br><br>        Student Funding Office<br><br>        T: +44 0203 506 6989 ext 66989@: studentfunding@ westminster.ac.uk<br>        A: First Floor,<br>        101 New Cavendish Street<br>        London W1W 6 XH "
       },
 
 
-      "img1": "images/essentials/m2/fsha",
-      "img2": "images/essentials/m2/fstb",
-      "img3": "images/essentials/m2/fina",
-      "img4": "null",
+      "imgs": {
+        "img1": "images/essentials/m2/fsha.jpg",
+        "img2": "images/essentials/m2/fstb.jpg",
+        "img3": "images/essentials/m2/fina.jpg"
+      },
 
 
       "q1": {
-        "title": "Which campus houses the Faculty of Social Sciences & Humanities?\\nHint* Visit the Little Titchford St. Campus" ,
+        "title": "Which campus houses the Faculty of Social Sciences & Humanities?<br>Hint* Visit the Little Titchford St. Campus" ,
         "answersType": "text",
         "answers": {
           "a": "Regents",
@@ -95,20 +96,20 @@
       },
 
       "q2": {
-        "title": "What does the Faculty of Science & Technology Registry Office look like?\\nHint* You'll need to find it first",
+        "title": "What does the Faculty of Science & Technology Registry Office look like?<br>Hint* You'll need to find it first",
         "answersType": "image",
         "answers": {
-          "a": "images/essentials/m2/fsta",
-          "b": "images/essentials/m2/fstb",
-          "c": "images/essentials/m2/fstc",
-          "d": "images/essentials/m2/fstd"
+          "a": "images/essentials/m2/fsta.jpg",
+          "b": "images/essentials/m2/fstb.jpg",
+          "c": "images/essentials/m2/fstc.jpg",
+          "d": "images/essentials/m2/fstd.jpg"
         },
         "correct": "b",
         "location": "cav"
       },
 
       "q3": {
-        "title": "What are the opening hours for the finance office?\\nHint* look for the signboard outside the Finance office",
+        "title": "What are the opening hours for the finance office?<br>Hint* look for the signboard outside the Finance office",
         "answersType": "text",
         "answers": {
           "a": "Saturday & Sunday: 11am to 2pm",
@@ -121,7 +122,7 @@
       },
 
       "q4": {
-        "title": "Students are expelled immediately for not paying their fees?\\nHint* Ask the Finance office",
+        "title": "Students are expelled immediately for not paying their fees?<br>Hint* Ask the Finance office",
         "answersType": "text",
         "answers": {
           "a": "True",
@@ -139,23 +140,24 @@
       "info": {
 
 
-        "q1_info": "Cavendish Library\\n\\n          T: +44(0) 203 506 4050 or 4051\\n\\n            Staff Contact: Clare Dowsett\\n          Library Assistant Manager\\n          Cavendish and Regent Libraries\\n          T: +44(0) 203 506 4063@: c.dowsett@ westminster.ac.uk ",
+        "q1_info": "Cavendish Library<br><br>          T: +44(0) 203 506 4050 or 4051<br><br>            Staff Contact: Clare Dowsett<br>          Library Assistant Manager<br>          Cavendish and Regent Libraries<br>          T: +44(0) 203 506 4063@: c.dowsett@ westminster.ac.uk ",
 
-        "q2_info": "          Students ' Union\\n\\n          When you enroll at the University,\\n          you automatically become a member of the University of Westminster Students� Union(UWSU) - an independent organization that is run by students,\\n          for students.\\n          The Students ' Union is there to represent your needs as a student, protect your rights and make sure your voice is heard when key decisions are made at the University.\\n          The Union is also home to a range of sports clubs and societies,\\n          as well as Smoke Media(Smoke magazine, Smoke Radio and Smoke TV).It boast a bar(the Undercroft) and nightclub(Area 51) in Harrow,\\n          and has two shops that stock various student essentials - one at our Harrow Campus and the other at our Cavendish Campus.",
+        "q2_info": "          Students ' Union<br><br>          When you enroll at the University,<br>          you automatically become a member of the University of Westminster Students� Union(UWSU) - an independent organization that is run by students,<br>          for students.<br>          The Students ' Union is there to represent your needs as a student, protect your rights and make sure your voice is heard when key decisions are made at the University.<br>          The Union is also home to a range of sports clubs and societies,<br>          as well as Smoke Media(Smoke magazine, Smoke Radio and Smoke TV).It boast a bar(the Undercroft) and nightclub(Area 51) in Harrow,<br>          and has two shops that stock various student essentials - one at our Harrow Campus and the other at our Cavendish Campus.",
 
-        "q3_info": "          Cavendish Bookshop\\n\\n          T: 020 7915 5432 fax 020 7915 5435@: bookshop.cavendish@ westminster.ac.uk\\n          A: 115 New Cavendish Street,\\n          London W1W 6 UW\\n\\n          Opening hours\\n          Monday� Thursday 9.30 am - 6.30 pm\\n          Friday 9.30 am - 5.30 pm\\n\\n          Established in 1992,\\n          we currently have two shops in the University of Westminster.\\n          In addition to our experienced booksellers we also have a number of students working\\n          for us.\\n          We provide a comprehensive service\\n          for students,\\n          teaching staff and the campus libraries.\\n          Our company ethos is modelled on provision of a high level of service.\\n          We pride ourselves on the good relationships we have with everyone working within the institution.\\n          The official University of Westminster clothing and other branded merchandise are on sale in the campus bookshops.\\n          They are also available by mail order.Marylebone Books Ltd.",
+        "q3_info": "          Cavendish Bookshop<br><br>          T: 020 7915 5432 fax 020 7915 5435@: bookshop.cavendish@ westminster.ac.uk<br>          A: 115 New Cavendish Street,<br>          London W1W 6 UW<br><br>          Opening hours<br>          Monday� Thursday 9.30 am - 6.30 pm<br>          Friday 9.30 am - 5.30 pm<br><br>          Established in 1992,<br>          we currently have two shops in the University of Westminster.<br>          In addition to our experienced booksellers we also have a number of students working<br>          for us.<br>          We provide a comprehensive service<br>          for students,<br>          teaching staff and the campus libraries.<br>          Our company ethos is modelled on provision of a high level of service.<br>          We pride ourselves on the good relationships we have with everyone working within the institution.<br>          The official University of Westminster clothing and other branded merchandise are on sale in the campus bookshops.<br>          They are also available by mail order.Marylebone Books Ltd.",
 
-        "q4_info": "          FixIT Call Centre\\n\\n          Our FixIT Call Centre is open 24 hours a day,\\n          7 days a week.\\n          T: +44(0) 20 7915 5488 "
+        "q4_info": "          FixIT Call Centre<br><br>          Our FixIT Call Centre is open 24 hours a day,<br>          7 days a week.<br>          T: +44(0) 20 7915 5488 "
       },
 
-
-      "img1": "images/essentials/m3/cavl",
-      "img2": "images/essentials/m3/uwsu",
-      "img3": "images/essentials/m3/book",
-      "img4": "images/essentials/m3/isls",
+      "imgs": {
+        "img1": "images/essentials/m3/cavl.jpg",
+        "img2": "images/essentials/m3/uwsu.jpg",
+        "img3": "images/essentials/m3/book.jpg",
+        "img4": "images/essentials/m3/isls.jpg"
+      },
 
       "q1": {
-        "title": "What floor is the Cavendish library on?\\nHint* Visit the library",
+        "title": "What floor is the Cavendish library on?<br>Hint* Visit the library",
         "answersType": "text",
         "answers": {
           "a": "Third Floor",
@@ -169,7 +171,7 @@
 
 
       "q2": {
-        "title": "What is the University of Westminster Students� Union (UWSU)?\\nHint* Find their office and have some fun",
+        "title": "What is the University of Westminster Students� Union (UWSU)?<br>Hint* Find their office and have some fun",
         "answersType": "text",
         "answers": {
           "a": "An independent organisation that is run by students, for students.",
@@ -182,7 +184,7 @@
       },
 
       "q3": {
-        "title": "What floor was the bookshop in Cavendish located? \\nHint* Ask someone old",
+        "title": "What floor was the bookshop in Cavendish located? <br>Hint* Ask someone old",
         "answersType": "text",
         "answers": {
           "a": "Third Floor",
@@ -195,7 +197,7 @@
       },
 
       "q4": {
-        "title": "What is FixIt? \\nHint* Ask someone geeky-looking",
+        "title": "What is FixIt? <br>Hint* Ask someone geeky-looking",
         "answersType": "text",
         "answers": {
           "a": "University IT support Service",
