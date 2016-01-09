@@ -138,7 +138,7 @@
       loadQuestion(currentMission, currentId);
     });
     $('#tab-' + currentCategory + ' ul li div.open').click(function() {
-      console.log('done chest');
+      // console.log('done chest');
       displayMissionReward($(this).attr('id'));
     });
   };
@@ -211,7 +211,7 @@
 
     // display images
     for (var key in imgs){
-      $('#'+key).attr('src', imgs[key]);
+      $('#'+key).attr('src', 'models/' + imgs[key]);
     };
 
     //cghange page title
@@ -290,7 +290,7 @@
     // update score
     doneMissions.score = userScore;
     localStorage.setItem('done', JSON.stringify(doneMissions));
-    console.log(doneMissions);
+    // console.log(doneMissions);
   };
   unsetGlobalQuizElements = function() {
     currentCategory = null;

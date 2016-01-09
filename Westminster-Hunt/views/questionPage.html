@@ -70,7 +70,7 @@
 
   $("#skip-btn").click(function() {
     // if the question is unanswered add one to skipped
-    console.log($('.answer-btn.green-bg').length == 0);
+    // console.log($('.answer-btn.green-bg').length == 0);
     if ($('.my-btn.answer-btn.green-bg').length == 0) addToStats(0);
     loadQuestion(currentMission, ++currentId);
   });

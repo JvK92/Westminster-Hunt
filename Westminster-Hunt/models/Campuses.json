@@ -8,14 +8,14 @@
       "info": "<p><img id='img1'/><br>The memorial is of remmberence of Queen Mary's visit for the opening of the Little Titchford Street campus in 1929. 4 - 12 Little Titchfield Street was known at the time as the Great Portland Street Annexe, was opened for the craft schools of the Regent Street Polytechnic.</p><p><img id='img2'/><br>The painting is awesome.</p><p><img id='img3'/><br>Ben Joiner an artist of the University of Westminster designed the dramatic arresting metal sculptures seen outsisde the Cavendish campus.</p>",
 
       "imgs": {
-        "img1": "models/images/places/m1/quen.jpg",
-        "img2": "models/images/places/m1/pain.jpg",
-        "img3": "models/images/places/m1/scul.jpg"
+        "img1": "images/places/m1/quen.jpg",
+        "img2": "images/places/m1/pain.jpg",
+        "img3": "images/places/m1/scul.jpg"
       },
 
       "q1": {
         "title": "Where is this memorial located?",
-        "image": "models/images/places/m1/quen.jpg",
+        "image": "images/places/m1/quen.jpg",
         "answersType": "text",
         "answers": {
           "a": "Outside the campus entrance",
@@ -29,7 +29,7 @@
 
       "q2": {
         "title": "Where can this painting be found?",
-        "image": "models/images/places/m1/pain.jpg",
+        "image": "images/places/m1/pain.jpg",
         "answersType": "text",
         "answers": {
           "a": "Outside Regents campus",
@@ -43,7 +43,7 @@
 
       "q3": {
         "title": "Have you seen this sculpture anywhere?",
-        "image": "models/images/places/m1/scul.jpg",
+        "image": "images/places/m1/scul.jpg",
         "answersType": "text",
         "answers": {
           "a": "Regents Street",
@@ -76,10 +76,10 @@
 
 
       "imgs": {
-        "img1": "models/images/places/m2/gym.jpg",
-        "img2": "models/images/places/m2/gymc.jpg",
-        "img3": "models/images/places/m2/cafe.jpg",
-        "img4": "models/images/places/m2/gall.jpg"
+        "img1": "images/places/m2/gym.jpg",
+        "img2": "images/places/m2/gymc.jpg",
+        "img3": "images/places/m2/cafe.jpg",
+        "img4": "images/places/m2/gall.jpg"
       },
 
       "q1": {
@@ -152,9 +152,9 @@
       },
 
       "imgs": {
-        "img1": "models/images/places/m3/portl.jpg",
-        "img2": "models/images/places/m3/lltd.jpg",
-        "img3": "models/images/places/m3/ltsb.jpg"
+        "img1": "images/places/m3/portl.jpg",
+        "img2": "images/places/m3/lltd.jpg",
+        "img3": "images/places/m3/ltsb.jpg"
       },
 
       "q1": {
@@ -175,10 +175,10 @@
         "title": "Choose the correct image of the Large Lecture Theatre found in Cavendish",
         "answersType": "image",
         "answers": {
-          "a": "models/images/places/m3/llta.jpg",
-          "b": "models/images/places/m3/lltb.jpg",
-          "c": "models/images/places/m3/lltc.jpg",
-          "d": "models/images/places/m3/lltd.jpg"
+          "a": "images/places/m3/llta.jpg",
+          "b": "images/places/m3/lltb.jpg",
+          "c": "images/places/m3/lltc.jpg",
+          "d": "images/places/m3/lltd.jpg"
         },
         "correct": "d",
         "location": "cav"
@@ -209,8 +209,8 @@
       },
 
       "imgs": {
-        "img1": "models/images/places/m4/inter.jpg",
-        "img3": "models/images/places/m4/sunr.jpg"
+        "img1": "images/places/m4/inter.jpg",
+        "img3": "images/places/m4/sunr.jpg"
       },
 
       "q1": {
