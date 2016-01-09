@@ -4,8 +4,10 @@
 
       "title": "Computer Science",
       "noofquestions": "3",
-      "info": "Dr Philip Tworga<br>BSc Computer Science Course Leader<br>T: +44(0) 20 7911 5851 ext 65851<br>@: trwogap@ westminster.ac.uk<br><br><h4>Academic qualifications</h4>  - BSc Applied Physics(Liverpool) - MSc Advanced Software Engineering(Westminster),<br>- PhD Electronic and Electrical Engineering(UCL)<p>Industrial and commercial experience 9 years as a Senior Research Fellow at the Department of Electronic and Electrical Engineering, University College London, in the Optical and Electronic Devices and the Computer Modelling Groups.</p>GEC - Marconi(Research Scientist): development of optical communication systems and high - speed analogue amplifiers.<br>Alcatel Submarine Networks(Software Designer): development of a CORBA implementation<br>of the Network Management Layer<br>for the submarine terminal software.<br>Also undertaken media for BBC Radio and for BBC Worldwide.",
-      "img1": "images/people/m1/phild",
+      "info": "<img id='img1'/>Dr Philip Tworga<br>BSc Computer Science Course Leader<br>T: +44(0) 20 7911 5851 ext 65851<br>@: trwogap@ westminster.ac.uk<br><br><h4>Academic qualifications</h4>  - BSc Applied Physics(Liverpool) - MSc Advanced Software Engineering(Westminster),<br>- PhD Electronic and Electrical Engineering(UCL)<p>Industrial and commercial experience 9 years as a Senior Research Fellow at the Department of Electronic and Electrical Engineering, University College London, in the Optical and Electronic Devices and the Computer Modelling Groups.</p>GEC - Marconi(Research Scientist): development of optical communication systems and high - speed analogue amplifiers.<br>Alcatel Submarine Networks(Software Designer): development of a CORBA implementation<br>of the Network Management Layer<br>for the submarine terminal software.<br>Also undertaken media for BBC Radio and for BBC Worldwide.",
+      "imgs": {
+        "img1": "models/images/people/m1/phild.jpg"
+      },
       "q1": {
         "title": "Who is philip Tworga?",
         "answersType": "text",
@@ -47,17 +49,21 @@
       "m2": {
         "title": "Chancellors",
         "noofquestions": "2",
-        "info": "Vice - Chancellor<br>Professor Geoff Petts<br>rofessor Petts has been Vice - Chancellor of the University of Westminster since 1 August 2007.<br>He studied physical geography and geology at the University of Liverpool and gained his PhD at the University of Southampton.<br>He was appointed to a lectureship at Loughborough University in 1979,<br>was awarded a chair in 1989,<br>and became head of department in 1991.<br>In 1994 he moved to the University of Birmingham as Professor of Physical Geography and Director of Environmental Research and Management.<br>Two years later,<br>he founded that University� s Centre<br>for Environmental Research and Training(CERT).<br>He was appointed Pro Vice - Chancellor at Birmingham in 2002,<br>before taking up his appointment as Vice - Chancellor at University of Westminster.<br><br><br>Lady Sorrell<br>Chancellor<br>Lady Sorrell is co - founder and co - chair of the Sorrell Foundation,<br>which was established in 1999,<br>to foster confidence and creativity in young people.<br>In her celebrated career,<br>Frances has worked with thousands of school pupils through the Foundation� s initiatives which provide new pathways into the creative industries.<br>Prior to establishing the Sorrell Foundation with her husband,<br>Sir John Sorrell,<br>Frances(ne� Newell) made her name in business as co - founder of Newell and Sorrell.<br>one of Europe� s biggest and most successful design businesses.As creative director at the organisation Frances won over 100 awards<br>for creativity and effectiveness.<br>The Chancellor is called upon<br>for ceremonial duties and acts as ambassador<br>for the University whenever possible.",
-        "img1": "images/people/m2/viceb",
-        "img2": "images/people/m2/chana",
+        "info": "<img id='img1'/>Professor Petts has been Vice - Chancellor of the University of Westminster since 1 August 2007.<br>He studied physical geography and geology at the University of Liverpool and gained his PhD at the University of Southampton.<br>He was appointed to a lectureship at Loughborough University in 1979,<br>was awarded a chair in 1989,<br>and became head of department in 1991.<br>In 1994 he moved to the University of Birmingham as Professor of Physical Geography and Director of Environmental Research and Management.<br>Two years later,<br>he founded that University� s Centre<br>for Environmental Research and Training(CERT).<br>He was appointed Pro Vice - Chancellor at Birmingham in 2002,<br>before taking up his appointment as Vice - Chancellor at University of Westminster.<br><br><img id='img2'/>Lady Sorrell<br>Chancellor<br>Lady Sorrell is co - founder and co - chair of the Sorrell Foundation,<br>which was established in 1999,<br>to foster confidence and creativity in young people.<br>In her celebrated career,<br>Frances has worked with thousands of school pupils through the Foundation� s initiatives which provide new pathways into the creative industries.<br>Prior to establishing the Sorrell Foundation with her husband,<br>Sir John Sorrell,<br>Frances(ne� Newell) made her name in business as co - founder of Newell and Sorrell.<br>one of Europe� s biggest and most successful design businesses.As creative director at the organisation Frances won over 100 awards<br>for creativity and effectiveness.<br>The Chancellor is called upon<br>for ceremonial duties and acts as ambassador<br>for the University whenever possible.",
+
+        "imgs": {
+          "img1": "models/images/people/m2/viceb.jpg",
+          "img2": "models/images/people/m2/chana.jpg"
+        },
+
         "q1": {
           "title": "Have you met the vice chancellor? Find out what they look like.",
           "answersType": "image",
           "answers": {
-            "a": "images/people/m2/vicea",
-            "b": "images/people/m2/viceb",
-            "c": "images/people/m2/vicec",
-            "d": "images/people/m2/viced"
+            "a": "models/images/people/m2/vicea.jpg",
+            "b": "models/images/people/m2/viceb.jpg",
+            "c": "models/images/people/m2/vicec.jpg",
+            "d": "models/images/people/m2/viced.jpg"
           },
           "correct": "b",
           "location": "rgt"
@@ -80,9 +86,11 @@
 
       "title": "BioChemistry",
       "noofquestions": "2",
-      "info": "Dr Miriam Dwek<br>Senior Lecturer in Biochemistry,<br>Group Leader - Against Breast Cancer Research Unit<br>T: +44(0) 20 7911 5000 ext 64158@: m.v.dwek@ westminster.ac.uk<br>  I undertook my BSc in Applied Biology,<br>in the part - time mode,<br>whilst working at Smith & Nephew Medical,<br>Hull.<br>On graduation I joined the biotech company Oxford Glycosystems(subsequently part of the CellTech group) -<br>my first foray into the field of Glycobiology.My PhD was undertaken at UCL with Dr Leathem on glycosylation changes in breast cancer.<br>After post - doctoral work with Dr Leathem I moved two blocks north of UCL to the University of Westminster as a Senior Lecturer andset up my own lab( in 2002).<br>I am the Principal Investigator of the Against Breast Cancer Unit at the University of Westminster,<br>currently comprising 6 researchers and 2 research administrators.Our research work continues in the area of Cancer Glycobiology.<br>Most of the work has been focussed on proteins that show alterations in glycosylation in cancer using HPLC,<br>lectin and proteomic technologies with a view to developing blood and urine tests<br>for breast cancer.<br>The aim is to develop strategies<br>for targeting breast cancer and boosting the immune response to carbohydrate antigens.<br>A further aspect of the research is the interplay between diet and lifestyle and outcome following breast cancer.",
+      "info": "<img id='img1'/>Dr Miriam Dwek<br>Senior Lecturer in Biochemistry,<br>Group Leader - Against Breast Cancer Research Unit<br>T: +44(0) 20 7911 5000 ext 64158@: m.v.dwek@ westminster.ac.uk<br>  I undertook my BSc in Applied Biology,<br>in the part - time mode,<br>whilst working at Smith & Nephew Medical,<br>Hull.<br>On graduation I joined the biotech company Oxford Glycosystems(subsequently part of the CellTech group) -<br>my first foray into the field of Glycobiology.My PhD was undertaken at UCL with Dr Leathem on glycosylation changes in breast cancer.<br>After post - doctoral work with Dr Leathem I moved two blocks north of UCL to the University of Westminster as a Senior Lecturer andset up my own lab( in 2002).<br>I am the Principal Investigator of the Against Breast Cancer Unit at the University of Westminster,<br>currently comprising 6 researchers and 2 research administrators.Our research work continues in the area of Cancer Glycobiology.<br>Most of the work has been focussed on proteins that show alterations in glycosylation in cancer using HPLC,<br>lectin and proteomic technologies with a view to developing blood and urine tests<br>for breast cancer.<br>The aim is to develop strategies<br>for targeting breast cancer and boosting the immune response to carbohydrate antigens.<br>A further aspect of the research is the interplay between diet and lifestyle and outcome following breast cancer.",
 
-      "img1": "images/people/m1/miria",
+      "imgs": {
+        "img1": "models/images/people/m1/miria.jpg"
+      },
 
       "q1": {
         "title": "Can you find out what floor the BioChem Practical Labs are on?",
@@ -113,10 +121,10 @@
         "title": "What does she look like? Find out please",
         "answersType": "image",
         "answers": {
-          "a": "images/people/m1/miria",
-          "b": "images/people/m1/anneb",
-          "c": "images/people/m2/chana",
-          "d": "images/people/m4/jochc"
+          "a": "models/images/people/m1/miria.jpg",
+          "b": "models/images/people/m1/anneb.jpg",
+          "c": "models/images/people/m2/chana.jpg",
+          "d": "models/images/people/m4/jochc.jpg"
         },
         "correct": "a",
         "location": "cav"
@@ -126,16 +134,18 @@
     "m4": {
       "title": "Social Sciences and Humanities",
       "noofquestions": "2",
-      "info": "Dr Miriam Dwek<br>Senior Lecturer in Biochemistry,<br>Group Leader - Against Breast Cancer Research Unit<br>T: +44(0) 20 7911 5000 ext 64158@: m.v.dwek@ westminster.ac.uk<br>  I undertook my BSc in Applied Biology,<br>in the part - time mode,<br>whilst working at Smith & Nephew Medical,<br>Hull.<br>On graduation I joined the biotech company Oxford Glycosystems(subsequently part of the CellTech group) -<br>my first foray into the field of Glycobiology.My PhD was undertaken at UCL with Dr Leathem on glycosylation changes in breast cancer.<br>After post - doctoral work with Dr Leathem I moved two blocks north of UCL to the University of Westminster as a Senior Lecturer andset up my own lab( in 2002).<br>I am the Principal Investigator of the Against Breast Cancer Unit at the University of Westminster,<br>currently comprising 6 researchers and 2 research administrators.Our research work continues in the area of Cancer Glycobiology.<br>Most of the work has been focussed on proteins that show alterations in glycosylation in cancer using HPLC,<br>lectin and proteomic technologies with a view to developing blood and urine tests<br>for breast cancer.<br>The aim is to develop strategies<br>for targeting breast cancer and boosting the immune response to carbohydrate antigens.<br>A further aspect of the research is the interplay between diet and lifestyle and outcome following breast cancer.",
-      "img1": "images/people/m1/miria",
+      "info": "<img id='img1'/>Dr Miriam Dwek<br>Senior Lecturer in Biochemistry,<br>Group Leader - Against Breast Cancer Research Unit<br>T: +44(0) 20 7911 5000 ext 64158@: m.v.dwek@ westminster.ac.uk<br>  I undertook my BSc in Applied Biology,<br>in the part - time mode,<br>whilst working at Smith & Nephew Medical,<br>Hull.<br>On graduation I joined the biotech company Oxford Glycosystems(subsequently part of the CellTech group) -<br>my first foray into the field of Glycobiology.My PhD was undertaken at UCL with Dr Leathem on glycosylation changes in breast cancer.<br>After post - doctoral work with Dr Leathem I moved two blocks north of UCL to the University of Westminster as a Senior Lecturer andset up my own lab( in 2002).<br>I am the Principal Investigator of the Against Breast Cancer Unit at the University of Westminster,<br>currently comprising 6 researchers and 2 research administrators.Our research work continues in the area of Cancer Glycobiology.<br>Most of the work has been focussed on proteins that show alterations in glycosylation in cancer using HPLC,<br>lectin and proteomic technologies with a view to developing blood and urine tests<br>for breast cancer.<br>The aim is to develop strategies<br>for targeting breast cancer and boosting the immune response to carbohydrate antigens.<br>A further aspect of the research is the interplay between diet and lifestyle and outcome following breast cancer.",
+      "imgs": {
+        "img1": "models/images/people/m1/miria.jpg"
+      },
       "q1": {
         "title": "Find out what the Course Leader of the Integrated Master's In Law (M-Law) looks like, then select a pictue",
         "answersType": "image",
         "answers": {
-          "a": "images/people/m4/jocha",
-          "b": "images/people/m4/jochb",
-          "c": "images/people/m4/jochc",
-          "d": "images/people/m4/jochd"
+          "a": "models/images/people/m4/jocha.jpg",
+          "b": "models/images/people/m4/jochb.jpg",
+          "c": "models/images/people/m4/jochc.jpg",
+          "d": "models/images/people/m4/jochd.jpg"
         },
         "correct": "c",
         "location": "lts"
