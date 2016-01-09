@@ -11,12 +11,19 @@
   for (var cat in doneMissions){
     var correct = eval("doneMissions." + cat + ".correct");
     var wrong = eval("doneMissions." + cat + ".wrong");
-    // if (correct != undefined && wrong != undefined && (correct != 0))
-    if (correct != undefined && wrong != undefined && (correct != 0 || wrong != 0)) {
+    var skipped = eval("doneMissions." + cat + ".skipped");
+    // display when all values exist and at least one is not 0
+    if (correct != undefined && wrong != undefined && skipped != undefined && (correct != 0 || wrong != 0 || skipped != 0)) {
       var html = "<h3 style='margin-bottom: 5px'>Category " + cat + "</h3>" +
-            "<i>correct:</i> " + correct + "<br>" +
-            "<i>wrong:</i> " + wrong;
+            "<table style='display: inline-flex;'><tr>" +
+            "<td><i>correct:</i></td><td>" + correct + "</td>" +
+            "</tr><tr>" +
+            "<td><i>wrong:</i></td><td>" + wrong + "</td>" +
+            "</tr><tr>" +
+            "<td><i>skipped:</i></td><td>" + skipped + "</td>" +
+            "</tr><table>";
       $('#user-score').append(html);
+      console.log(html);
     }
   }
 </script>

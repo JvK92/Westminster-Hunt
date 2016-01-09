@@ -52,14 +52,14 @@
     if ($(this).attr('id') == "opt-" + correctAnswer) {
       // $('#content-frame').append("correct");
       $(this).removeClass('blue-bg').addClass('green-bg');
-      addToStats(true); // add one correct to statistics
+      addToStats(1); // add one correct to statistics
       addToScoreAndUpdate();
     }
     else {
       // $('#content-frame').append("wrong");
       $(this).removeClass('blue-bg').addClass('red-bg');
       $('#opt-' + correctAnswer).removeClass('blue-bg').addClass('green-bg');
-      addToStats(false); // add one wrong to statistics
+      addToStats(-1); // add one wrong to statistics
     }
     $("#td-points-available").html("");
     $('.answer-btn').unbind('click');
@@ -69,6 +69,9 @@
   });
 
   $("#skip-btn").click(function() {
+    // if the question is unanswered add one to skipped
+    console.log($('.answer-btn.green-bg').length == 0);
+    if ($('.my-btn.answer-btn.green-bg').length == 0) addToStats(0);
     loadQuestion(currentMission, ++currentId);
   });
 
@@ -92,19 +95,25 @@
     localStorage.setItem('fav', JSON.stringify(favourites));
   };
 
-  var addToStats = function(bool) {
-    if (bool == undefined) return;
-    else if (bool) {
-      // add one to correct
-      var correct = eval('doneMissions.' + currentCategory + '.correct');
-      correct++;
-      eval('doneMissions.' + currentCategory + '.correct = ' + correct);
-    }
-    else {
-      var wrong = eval('doneMissions.' + currentCategory + '.wrong');
-      wrong++;
-      eval('doneMissions.' + currentCategory + '.wrong = ' + wrong);
-    }
+  var addToStats = function(i) {
+    if (i == undefined) return;
+    switch (i) {
+      case 1: // add one to correct
+        var correct = eval('doneMissions.' + currentCategory + '.correct');
+        correct++;
+        eval('doneMissions.' + currentCategory + '.correct = ' + correct);
+        break;
+      case 0: // add one to skipped
+        var skipped = eval('doneMissions.' + currentCategory + '.skipped');
+        skipped++;
+        eval('doneMissions.' + currentCategory + '.skipped = ' + skipped);
+        break;
+      case -1: // add one to wrong
+        var wrong = eval('doneMissions.' + currentCategory + '.wrong');
+        wrong++;
+        eval('doneMissions.' + currentCategory + '.wrong = ' + wrong);
+        break;
+    };
     // don't save, it will be saved at end of mission
     // localStorage.setItem('done', JSON.stringify(doneMissions));
   }

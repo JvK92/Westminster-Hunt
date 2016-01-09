@@ -23,10 +23,10 @@
   currentLen = null;
   // get list of done questions from localStorage  or create it
   if (localStorage.getItem('done') == null) {
-    doneMissions = {'Campuses' : {'correct' : 0, 'wrong' : 0},
-      'Essentials' : {'correct' : 0, 'wrong' : 0},
-      'People' : {'correct' : 0, 'wrong' : 0},
-      'Study' : {'correct' : 0, 'wrong' : 0},
+    doneMissions = {'Campuses' : {'correct' : 0, 'wrong' : 0, 'skipped' : 0},
+      'Essentials' : {'correct' : 0, 'wrong' : 0, 'skipped' : 0},
+      'People' : {'correct' : 0, 'wrong' : 0, 'skipped' : 0},
+      'Study' : {'correct' : 0, 'wrong' : 0, 'skipped' : 0},
       'score' : 0
     };
     localStorage.setItem('done', JSON.stringify(doneMissions));
@@ -97,11 +97,11 @@
           retrievedCategory = data;
           // dynamically create content
           drawChests();
-        })
-        .error(function(request, status, error) {
-          console.log(request);
-            console.log(error);
         });
+        // .error(function(request, status, error) {
+        //   console.log(request);
+        //     console.log(error);
+        // });
       }
       else {
         retrievedCategory = JSON.parse(localStorage.getItem(currentCategory));
@@ -190,10 +190,10 @@
 // displays the information about the mission
   displayMissionReward = function(missionId) {
     if (missionId === undefined || missionId === null) missionId = currentMission;
-    console.log('rc');
-    console.log(retrievedCategory);
-    console.log('cm');
-    console.log(missionId);
+    // console.log('rc');
+    // console.log(retrievedCategory);
+    // console.log('cm');
+    // console.log(missionId);
 
     var mission = eval('retrievedCategory' + '.questions.' + missionId + '.info');
     // append favourite button
