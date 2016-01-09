@@ -273,7 +273,7 @@
       $("#opt-d").attr('src', 'models/' + currentQuestion.answers.d);
       correctAnswer = currentQuestion.correct;
     }
-    if (img) $('#question').before("<img class='question-img' src='" + img + "'>");
+    if (img) $('#question').before("<img class='question-img' src='models/" + img + "'>");
   };
   addToScoreAndUpdate = function() {
     // not used

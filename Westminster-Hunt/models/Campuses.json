@@ -5,7 +5,7 @@
 
       "title": "Structures & Peices",
       "noofquestions": "3",
-      "info": "<p><img id='img1'/><br>The memorial is of remmberence of Queen Mary's visit for the opening of the Little Titchford Street campus in 1929. 4 - 12 Little Titchfield Street was known at the time as the Great Portland Street Annexe, was opened for the craft schools of the Regent Street Polytechnic.</p><p><img id='img2'/><br>The painting is awesome.</p><p><img id='img3'/><br>Ben Joiner an artist of the University of Westminster designed the dramatic arresting metal sculptures seen outsisde the Cavendish campus.</p>",
+      "info": "<p><img id='img1'/>The memorial is of remmberence of Queen Mary's visit for the opening of the Little Titchford Street campus in 1929. 4 - 12 Little Titchfield Street was known at the time as the Great Portland Street Annexe, was opened for the craft schools of the Regent Street Polytechnic.</p><p><img id='img2'/>The painting is awesome.</p><p><img id='img3'/>Ben Joiner an artist of the University of Westminster designed the dramatic arresting metal sculptures seen outsisde the Cavendish campus.</p>",
 
       "imgs": {
         "img1": "images/places/m1/quen.jpg",
@@ -62,24 +62,13 @@
 
       "title": "Food & Entertainment",
       "noofquestions": "4",
-      "info": {
-        "q1_info": "Regent Street Univeristy Student Gym\\n        The University of Westminster believes in it 's students and supports them in their drive, ambitions and determinsation\\n        Located in the heart of London,\\n        just a short walk from bustling Oxford Street,\\n        is Regent Street gym.\\n\\n        >> Facilities\\n        Our gym offers cardio and weights facilities,\\n        and general floor space\\n        for stretching or free weights.we also have clean and pleasant changing,\\n        shower and locker facilities,\\n        as well as towels to hire.\\n        Four highly qualified and experienced sports and exercise scientists are on hand to offer fitness assessments,\\n        body composition analysis,\\n        personal training,\\n        nutrition and weight loss advice,\\n        and prepare tailored fitness plans.\\n\\n        >> Classes\\n        The classes we offer at Regent Street gym include spin,\\n        TRX,\\n        Zumba,\\n        Boxfit,\\n        Pilates and yoga.\\n\\n\\n        Student opening hours\\n\\n        Monday to Thursday: 8 am� 9 pm\\n        Friday: 8 am� 7.30 pm\\n        Saturday: closed\\n        Sunday: 11.30 am� 3 pm ",
-
-        "q2_info": "        Gym Prices: ",
-
-
-        "q3_info": "        The Gallery\\n        Located at our 309 Regent Street site,\\n        the Gallery Cafe is open to students,\\n        staff and the general public.\\n        Its affordable prices and central location make it an excellent meeting point\\n        for working lunches and informal meetings.        ",
-
-
-        "q4_info": "         Caf� neo\\n        located in the Cavendish campus,\\n        you can find everything you need to keep you going through your day.Its a nice place to hang out with freinds,\\n        eat some hot food or just socialise in your spare time.\\n        Hot and cold drinks are also on sale just ask one of the freindly staff and they will be happy to assist you with more information on whats available."
-      },
-
+      "info": "<p><img id='img1'/>Regent Street Univeristy Student Gym<br>The University of Westminster believes in it 's students and supports them in their drive, ambitions and determinsation<br>Located in the heart of London,<br>just a short walk from bustling Oxford Street,<br>is Regent Street gym.\\n<br>>> Facilities<br>Our gym offers cardio and weights facilities,<br>and general floor space<br>for stretching or free weights.we also have clean and pleasant changing,<br>shower and locker facilities,<br>as well as towels to hire.<br>Four highly qualified and experienced sports and exercise scientists are on hand to offer fitness assessments,<br>body composition analysis,<br>personal training,<br>nutrition and weight loss advice,<br>and prepare tailored fitness plans.\\n<br>>> Classes<br>The classes we offer at Regent Street gym include spin,<br>TRX,<br>Zumba,<br>Boxfit,<br>Pilates and yoga.\\n\\n<br>Student opening hours\\n<br>Monday to Thursday: 8 am� 9 pm<br>Friday: 8 am� 7.30 pm<br>Saturday: closed<br>Sunday: 11.30 am� 3 pm</p><p><img id='img2'/>Gym Prices</p><p><img id='img3'/>The Gallery<br>Located at our 309 Regent Street site,<br>the Gallery Cafe is open to students,<br>staff and the general public.<br>Its affordable prices and central location make it an excellent meeting point<br>for working lunches and informal meetings.</p><p><img id='img4'/>Cafe neo<br>located in the Cavendish campus,<br>you can find everything you need to keep you going through your day.Its a nice place to hang out with freinds,<br>eat some hot food or just socialise in your spare time.<br>Hot and cold drinks are also on sale just ask one of the freindly staff and they will be happy to assist you with more information on whats available.</p>",
 
       "imgs": {
         "img1": "images/places/m2/gym.jpg",
         "img2": "images/places/m2/gymc.jpg",
-        "img3": "images/places/m2/cafe.jpg",
-        "img4": "images/places/m2/gall.jpg"
+        "img3": "images/places/m2/gall.jpg",
+        "img4": "images/places/m2/cafe.jpg"
       },
 
       "q1": {
@@ -100,10 +89,10 @@
         "title": "How much is gym membership monthly, if you pay for the whole year?",
         "answersType": "text",
         "answers": {
-          "a": "�10",
-          "b": "�20 ",
-          "c": "�17",
-          "d": "�13"
+          "a": "£10",
+          "b": "£20",
+          "c": "£17",
+          "d": "£13"
         },
         "correct": "d",
         "location": "rgt"
@@ -125,9 +114,9 @@
         "answersType": "text",
         "answers": {
           "a": "Cafertino",
-          "b": "Caf�nero",
+          "b": "Cafenero",
           "c": "CostaCafe",
-          "d": "Caf�neo"
+          "d": "Cafeneo"
         },
         "correct": "d",
         "location": "cav"
@@ -139,17 +128,7 @@
 
       "title": "Lecture Facilities",
       "noofquestions": "3",
-      "info": {
-
-
-        "q1_info": "Portland Hall\\n          Campus: Little Titchford Street\\n          Location: Basement,\\n          B2\\n          Facilities: Wheelchair access\\n          Capacity: �180 lecture theatre style� 130 classroom style� 100 exam style� 50 boardroom style� 60 cabaret ",
-
-
-        "q2_info": "          Large Lecture Theatre\\n          Campus: Cavendish\\n          Location: Second floor,\\n          C2.12\\n          Facilities: Wheelchair access\\n          Capacity: 200 seated",
-
-
-        "q3_info": "          Lecture Facilities in Little Titchford Street\\n          Lecture Theatre - > Second Floor,\\n          2.05\\n          Lecture Theatre - > Third Floor,\\n          3.07\\n          New Lecture Theatre - > Ground Floor\\n          Portland Hall - > Basement,\\n          B2 "
-      },
+      "info": "<p><img id='img1'/>Portland Hall<br>  Campus: Little Titchford Street<br>  Location: Basement,<br>  B2<br>  Facilities: Wheelchair access<br>  Capacity: �180 lecture theatre style� 130 classroom style� 100 exam style� 50 boardroom style� 60 cabaret</p><p><img id='img1'/>Large Lecture Theatre<br>  Campus: Cavendish<br>  Location: Second floor,<br>  C2.12<br>  Facilities: Wheelchair access<br>  Capacity: 200 seated</p><p><img id='img1'/>Lecture Facilities in Little Titchford Street<br>Lecture Theatre - > Second Floor,<br>  2.05<br>  Lecture Theatre - > Third Floor,<br>  3.07<br>  New Lecture Theatre - > Ground Floor<br>Portland Hall - > Basement,<br>B2</p>",
 
       "imgs": {
         "img1": "images/places/m3/portl.jpg",
@@ -203,10 +182,7 @@
 
       "title": "Classrooms",
       "noofquestions": "4",
-      "info": {
-
-        "q1_info": "Interpretation Practice Rooms\\n            Situated on the upper fourth floor of 301 Regent Street,\\n            a dedicated learning area\\n            for Modern Languages students has been created.\\n            The space encourages greater interaction between staff and students and includes new state - of - the - art language labs\\n            for Interpreting and Translation students plus attractive offices for staff."
-      },
+      "info": "<p><img id='img1'/<img id='img2'/>Interpretation Practice Rooms<br>    Situated on the upper fourth floor of 301 Regent Street,<br>    a dedicated learning area<br>    for Modern Languages students has been created.<br>The space encourages greater interaction between staff and students and includes new state - of - the - art language labs<br>    for Interpreting and Translation students plus attractive offices for staff.</p>",
 
       "imgs": {
         "img1": "images/places/m4/inter.jpg",
