@@ -52,8 +52,7 @@
     var viewName = $(this).attr("view");
 
     // make menu element active
-    $('.active-btn').addClass('ui-alt-icon').removeClass('active-btn');
-    $(this).addClass('active-btn').removeClass('ui-alt-icon');
+    changeActivePanelBtn(this);
 
     // loadOff view listeners
 
@@ -65,6 +64,7 @@
       if (viewName == 'Fav') viewName = 'Favourites';
       changePageTitle(viewName);
       $('#content-frame').html(data);
+      if (device == 'phone') $('#defaultpanel').panel('close');
     });
   };
 
@@ -72,8 +72,7 @@
   loadCategory = function() {
     currentCategory = $(this).attr("view");
     // make menu element active
-    $('.active-btn').addClass('ui-alt-icon').removeClass('active-btn');
-    $(this).addClass('active-btn').removeClass('ui-alt-icon');
+    changeActivePanelBtn(this);
 
     // loadOff view listeners
 
@@ -85,7 +84,8 @@
     .done(function(data) {
       changePageTitle(currentCategory);
       $('#content-frame').html(data);
-      $('li a[href="#tab-' + currentCategory + '"]').click();
+      changeActiveTab($('a[href="#tab-' + currentCategory + '"]'));
+      // $('li a[href="#tab-' + currentCategory + '"]').click();
 
       // check if stored in localStorage - so the user can use offline
       if (localStorage.getItem(currentCategory) == null) {
@@ -109,15 +109,24 @@
         // dynamically create content
         drawChests();
       }
+      // close panel on phone
+      if (device == 'phone') $('#defaultpanel').panel('close');
     });
   };
 
+  changeActivePanelBtn = function(el) {
+    $('.active-btn').addClass('ui-alt-icon').removeClass('active-btn');
+    $(el).addClass('active-btn').removeClass('ui-alt-icon');
+  }
+
   drawChests = function() {
+    console.log('dc');
     currentMission = eval("retrievedCategory.questions");
     // console.log(currentMission);
 
     // drawChests
     for(var propName in currentMission) {
+      console.log(propName);
       var mission = eval("currentMission." + propName);
       if (eval("doneMissions." + currentCategory + "."+ propName)) var html = chest_open;
       else var html = chest_closed;

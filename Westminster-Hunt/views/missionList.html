@@ -1,7 +1,7 @@
 <div class="tabs" >
     <ul class="tab-links">
-    	<li class="active"><a href="#tab-Essentials">Essentials</a></li>
         <li><a href="#tab-Campuses">Campuses</a></li>
+      	<li><a href="#tab-Essentials">Essentials</a></li>
         <li><a href="#tab-People">People</a></li>
         <li><a href="#tab-Study">Study</a></li>
     </ul>
@@ -23,7 +23,7 @@
       </div>
 
       <div id="tab-Campuses" class="tab">
-        <ul>      	
+        <ul>
         </ul>
       </div>
     </div>
@@ -33,15 +33,45 @@
 jQuery(document).ready(function() {
     jQuery('.tabs .tab-links a').on('click', function(e)  {
         var currentAttrValue = jQuery(this).attr('href');
+        currentCategory = currentAttrValue.substring(5);
 
-        // Show/Hide Tabs
-        jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
-
-        // Change/remove current tab to active
-        jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+        changeActiveTab(this);
+        changeActivePanelBtn($('#mission-categories li a[view="' + currentCategory + '"]'));
+        console.log(currentCategory);
+        if (localStorage.getItem(currentCategory) == null) {
+          $.ajax({
+            url: "models/" + currentCategory + ".json"
+          })
+          .done(function( data ) {
+            // save JSON as string in localStorage
+            localStorage.setItem(currentCategory, JSON.stringify(data));
+            retrievedCategory = data;
+            // dynamically create content
+            $('' + currentAttrValue + ' ul').html('');
+            drawChests();
+          });
+        }
+        else {
+          retrievedCategory = JSON.parse(localStorage.getItem(currentCategory));
+          // dynamically create content
+          console.log('' + currentAttrValue);
+          $('' + currentAttrValue + ' ul').html('');
+          drawChests();
+        }
 
         e.preventDefault();
     });
+
+    changeActiveTab = function(el){
+      console.log(el);
+      var currentAttrValue = jQuery(el).attr('href');
+
+      // Show/Hide Tabs
+      jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+
+      // Change/remove current tab to active
+      jQuery(el).parent('li').addClass('active').siblings().removeClass('active');
+    }
 });
 var chest_closed = '<li><div class="closed"><img src="img/treasure_closed.png"><br><span>title</span></div></li>';
 var chest_open = '<li><div class="open"><img src="img/treasure_open.png"><br><span>title</span></div></li>';

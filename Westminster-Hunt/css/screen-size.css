@@ -1,5 +1,15 @@
 /* phone */
 @media screen and (max-width: 736px) {
+  .ui-panel{
+     overflow-x:scroll;
+     position: fixed;
+  }
+  #content-frame{
+    overflow-x: scroll;
+  }
+  #content-frame p{
+    padding: 1%
+  }
   div.ui-content{
     width: 100%;
   }
@@ -12,6 +22,147 @@
   .tablet-elem{
     display: none !important;
   }
+
+  /* panel */
+  #panel-tablet{
+    width: 30%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    border-right: 2px solid #eee;
+  }
+  #panel-tablet{
+    padding: 1%;
+  }
+  #panel-tablet h2{
+    margin: 0 0 .5em 0;
+  }
+  #panel-tablet ul li a{
+    padding-left: 2em;
+  }
+  #mission-categories{
+    margin-top: 0 !important;
+    margin-right: -.7em;
+  }
+  #mission-categories li:focus, #mission-categories li:hover, #mission-categories li:active{
+    background-color: #2f76d3 !important;
+    color: white !important;
+  }
+  #nav-buttons{
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  #nav-buttons tr td{
+    width: 50%;
+  }
+  #nav-buttons tr td span.glyphicon {
+    display: block;
+    font-size: 1.7em;
+    margin-bottom: .2em;
+    margin-top: .5em;
+  }
+
+  /* mission list */
+  .tab-links li a{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+  }
+  .tab-content{
+    background: transparent;
+    box-shadow: none;
+  }
+  .tab{
+    text-align: center;
+    display: block;
+  }
+  div.tab ul {
+    padding: 0;
+  }
+  div.tab ul li {
+    display: inline-flex;
+    margin: 1em;
+  }
+  div.tab ul li div span {
+    text-align: center;
+    display: block;
+  }
+  div.tab ul li span {
+    max-width: 128px;
+  }
+
+  /* Question page */
+  .center-page{
+    top: 1%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    position: absolute;
+  }
+  .center-page h2 {
+    margin-top: 0;
+    font-size: 1.6em;
+  }
+  table#answers {
+    width: 100%;
+  }
+  table#answers tr td{
+    text-align: center;
+    width: 50%
+  }
+  table#answers tr td div{
+    width: 94%;
+    margin: 0 0 .5em 0;
+    display: inline-block;
+  }
+  ul#answers, ul#answers-pic{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  ul#answers li, ul#answers-pic li{
+    display: inline-block;
+    width: 49%;
+    margin: .5em 0;
+    text-align: center;
+  }
+  ul#answers li div.answer-btn{
+    width: 90%;
+    margin: 0 auto;
+  }
+  ul#answers li:nth-child(even), ul#answers-pic li:nth-child(even){
+    float: right;
+  }
+  ul#answers li:nth-child(odd), ul#answers-pic li:nth-child(odd){
+    float: left;
+  }
+  ul#answers-pic li div.answer-btn {
+    width: 200px;
+    height: 200px;
+    background-size: cover !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+  .question-img{
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    max-height: 300px;
+  }
+  img#opt-a, img#opt-b, img#opt-c, img#opt-d {
+    width: 170px;
+    height: 170px;
+  }
+
 }
 /* pannel tablet */
 @media screen and (min-width: 737px) {
@@ -91,7 +242,7 @@
   }
   table#answers tr td div{
     width: 94%;
-    margin: 0;
+    margin: 0 0 .5em 0;
     display: inline-block;
   }
   ul#answers, ul#answers-pic{
@@ -169,5 +320,8 @@
   div.tab ul li:nth-of-type(2n+4):after {
     content:"\A";
     white-space:pre;
+  }
+  div.tab ul li span {
+    max-width: 128px;
   }
 }
