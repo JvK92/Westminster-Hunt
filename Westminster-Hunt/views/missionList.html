@@ -38,7 +38,6 @@ jQuery(document).ready(function() {
 
         changeActiveTab(this);
         changeActivePanelBtn($('#mission-categories li a[view="' + currentCategory + '"]'));
-        console.log(currentCategory);
         if (localStorage.getItem(currentCategory) == null) {
           $.ajax({
             url: "models/" + currentCategory + ".json"
@@ -55,7 +54,6 @@ jQuery(document).ready(function() {
         else {
           retrievedCategory = JSON.parse(localStorage.getItem(currentCategory));
           // dynamically create content
-          console.log('' + currentAttrValue);
           $('' + currentAttrValue + ' ul').html('');
           drawChests();
         }
@@ -64,7 +62,6 @@ jQuery(document).ready(function() {
     });
 
     changeActiveTab = function(el){
-      console.log(el);
       var currentAttrValue = jQuery(el).attr('href');
 
       // Show/Hide Tabs

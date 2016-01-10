@@ -1,5 +1,5 @@
 <h2>Categories</h2>
-<ul data-role="listview" id="mission-categories" class="ui-nodisc-icon">
+<ul data-role="listview" id="mission-categories" class="ui-nodisc-icon tablet-panel">
   <li><a href="#" view="Campuses" class="ui-alt-icon">Campuses</a></li>
   <li><a href="#" view="Essentials" class="ui-alt-icon">Essentials</a></li>
   <li><a href="#" view="People" class="ui-alt-icon">People</a></li>
@@ -17,6 +17,19 @@
 </table>
 
 <script>
+
+  if (width < 737 && $('#defaultpanel')) {
+    // generate the panel for phone
+    $('#mission-categories').prev('h2').html('Menu');
+    html = '<li><a href="#" view="MissionList" class="ui-alt-icon">Missions</a></li>' +
+            '<li><a href="#" view="Newsletter" class="ui-alt-icon">Newsletter</a></li>' +
+            '<li><a href="#" view="Guide" class="ui-alt-icon">Guide</a></li>' +
+            '<li><a href="#" view="Map" class="ui-alt-icon">Map of Campuses</a></li>' +
+            '<li><a href="#" view="Fav" class="ui-alt-icon">Favourites</a></li>';
+    $('#mission-categories').removeClass('tablet-panel').addClass('mobile-panel').html(html);
+    $('#nav-buttons').unbind().remove();
+  }
+
   currentCategory = null;
   currentMission = null;
   currentId = null;
@@ -54,16 +67,22 @@
     // make menu element active
     changeActivePanelBtn(this);
 
-    // loadOff view listeners
-
     // load ajax;
     $.ajax({
       url: "views/" + viewName + ".html"
     })
     .done(function( data ) {
+      // if teh view is fav change the name so the page title is favourites
       if (viewName == 'Fav') viewName = 'Favourites';
       changePageTitle(viewName);
       $('#content-frame').html(data);
+
+      // if the view is mission list click a button to load a tab
+      if (viewName == 'MissionList')
+        setTimeout(function(){
+          $('a[href="#tab-Essentials"]').click();
+        }, 1);
+
       if (device == 'phone') $('#defaultpanel').panel('close');
     });
   };
@@ -155,8 +174,8 @@
   };
 
   // assigning listeners
-  $('#mission-categories li a').click(loadCategory);
-  $("#nav-buttons tr td, #panelScore").click(loadView);
+  $('.tablet-panel li a').click(loadCategory);
+  $("#nav-buttons tr td, #panelScore, .mobile-panel li a").click(loadView);
 
 
   loadOffPanned = function() {

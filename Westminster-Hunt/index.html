@@ -19,7 +19,7 @@
 </head>
 <body>
 
-<div data-role="page" class="home">
+<div data-role="page" class="home" id="home">
 
 	<div data-role="header" data-position="fixed" data-hide-during-focus="" data-tap-toggle="false">
 		<h1 class="heading-title">Westminster Hunt</h1>
@@ -60,8 +60,7 @@
 	</div><!-- /content -->
 
 	<!-- defaultpanel  -->
-	<div data-role="panel" id="defaultpanel" data-display="reveal" data-position="left" data-theme="a">
-  </div><!-- /defaultpanel -->
+	<div data-role="panel" id="defaultpanel" data-display="reveal" data-position="left" data-theme="a"></div><!-- /defaultpanel -->
 
 </div><!-- /page Initial -->
 
@@ -69,6 +68,7 @@
 
 <script>
 	$( document ).ready(function() {
+
 		device = null;
 		width = window.innerWidth;
 		if (width >= 737){
