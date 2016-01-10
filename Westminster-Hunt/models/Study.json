@@ -5,16 +5,7 @@
 
       "title": "Learning",
       "noofquestions": "3",
-      "info": {
-
-        "q1_info": "Referred/deferred examinations are taken in the summer outside of term and occur on exception circumstances.",
-
-        "q2_info": "There are only two terms per year",
-
-        "q3_info": "Changing forgotten passwords will be easier to do on campus,<br> at home or anywhere with an internet connection.<br><br> Once you are connected to the internet visit password.westminster.ac.uk,<br> enter your username and select the forgotten password link.<br> An email will then be sent to the alternate email address you provided in SRSWeb.<br> Go to your alternate email address and select the link to reset your password.<br><br> Once your forgotten password is reset,<br> you will need to wait a<br> while<br> for your password details to be synchronised across services such as Blackboard,<br> SRSWeb,<br> Google Apps etc.<br> Synchronisation may take up to an hour especially during busy periods.<br> The password.westminster.ac.uk online service has also been updated to provide you with links to information on how to connect to the University� s wireless network;IT help contacts;and information on IT Security.",
-
-        "q4_info": " It takes both knowledge and effor to succeed. Without effort one cant gain the knowledge and without knowledge one cant make an effort."
-      },
+      "info": "<p>Referred/deferred examinations are taken in the summer outside of term and occur on exception circumstances.</p><p>There are only two terms per year</p><p>Changing forgotten passwords will be easier to do on campus,<br> at home or anywhere with an internet connection.<br><br> Once you are connected to the internet visit password.westminster.ac.uk,<br> enter your username and select the forgotten password link.<br> An email will then be sent to the alternate email address you provided in SRSWeb.<br> Go to your alternate email address and select the link to reset your password.<br><br> Once your forgotten password is reset,<br> you will need to wait a<br> while<br> for your password details to be synchronised across services such as Blackboard,<br> SRSWeb,<br> Google Apps etc.<br> Synchronisation may take up to an hour especially during busy periods.<br> The password.westminster.ac.uk online service has also been updated to provide you with links to information on how to connect to the University� s wireless network;IT help contacts;and information on IT Security.</p><p>It takes both knowledge and effor to succeed. Without effort one cant gain the knowledge and without knowledge one cant make an effort.</p>",
 
       "q1": {
         "title": "There are 3 Terms in a full year at university. True or False?<br>Hint* Ask the registry office",
@@ -57,19 +48,11 @@
 
       "title": "Services",
       "noofquestions": "3",
-      "info": {
+      "info": "<p>Laptops can be borrowed for a period of 24 hours.</p><p><img id='img2'/>Dialling 5488 will allow you to contact fixit andget further technical support</p><p>Booking study rooms<br> Cavendish,<br> Marylebone and Regent Libraries<br><br> You can now book group study rooms at our libraries at Cavendish,<br> Marylebone and Regent Campus,<br> using the booking service available through Timetabling.<br><br> Download our step - by - step room bookings guide<br>Log in to Timetabling to book a room.</p>",
 
-        "q1_info": "Laptops can be borrowed for a period of 24 hours.",
-
-        "q2_info": "Dialling 5488 will allow you to contact fixit andget further technical support",
-
-        "q3_info": "Booking study rooms<br> Cavendish,<br> Marylebone and Regent Libraries<br><br> You can now book group study rooms at our libraries at Cavendish,<br> Marylebone and Regent Campus,<br> using the booking service available through Timetabling.<br><br> Download our step - by - step room bookings guide<br>Log in to Timetabling to book a room "
+      "imgs": {
+        "img2": "images/study/m2/fixi.jpg"
       },
-
-
-      "img1": "null",
-      "img2": "images/study/m2/fixi",
-      "img3": "null",
 
       "q1": {
         "title": "Libraries offer laptops on loan for a period of ?<br>Hint* Ask the librarians ",
@@ -83,7 +66,6 @@
         "correct": "a",
         "location": "cav"
       },
-
 
       "q2": {
         "title": "How to does one contact fix on the university landlines?<br>Hint* Reception can help with this one",
@@ -115,19 +97,13 @@
 
       "title": "Facilities",
       "noofquestions": "4",
-      "info": {
+      "info": "<p><img id='img1'/>There are 5 silent study group rooms in the Cavendish library</p><p>Booking study rooms<br>   Cavendish,<br>   Marylebone and Regent Libraries<br><br>   You can now book group study rooms at our libraries at Cavendish,<br>   Marylebone and Regent Campus,<br>   using the booking service available through Timetabling.<br><br>   Download our step - by - step room bookings guide<br>   Log in to Timetabling to book a room<br><br>   Rooms can be booked<br>   for the current week and a week in advance.<br><br>   If your booked room is not in use within 15 minutes of your booked time,<br>   it will become available to other students.If you no longer need a room make sure you log in to the system and cancel your booking.<br><br>   Each study group:<br><br>     Should consist of at least 3 people<br>   Can book a room<br>   for up to 2 hours a day<br>   Can book<br>   for a maximum of 4 hours a week</p><p><img id='img3'/>The silent study area located in Cavendish library is on the fifth floor.</p><p><img id='img4'/>There are 5 silent study group rooms in the Cavendish library.</p>",
 
-        "q1_info": " There are 5 silent study group rooms in the Cavendish library",
-        "q2_info": "Booking study rooms<br>   Cavendish,<br>   Marylebone and Regent Libraries<br><br>   You can now book group study rooms at our libraries at Cavendish,<br>   Marylebone and Regent Campus,<br>   using the booking service available through Timetabling.<br><br>   Download our step - by - step room bookings guide<br>   Log in to Timetabling to book a room<br><br>   Rooms can be booked<br>   for the current week and a week in advance.<br><br>   If your booked room is not in use within 15 minutes of your booked time,<br>   it will become available to other students.If you no longer need a room make sure you log in to the system and cancel your booking.<br><br>   Each study group:<br><br>     Should consist of at least 3 people<br>   Can book a room<br>   for up to 2 hours a day<br>   Can book<br>   for a maximum of 4 hours a week ",
-
-        "q3_info": "The silent study area located in Cavendish library is on the fifth floor.",
-
-        "q4_info": "There are 5 silent study group rooms in the Cavendish library."
+      "imgs": {
+        "img1": "images/study/m3/gssr.jpg",
+        "img3": "images/study/m3/sile.jpg",
+        "img4": "images/study/m3/caro.jpg"
       },
-
-      "img1": "images/study/m3/gssr",
-      "img3": "images/study/m3/sile",
-      "img4": "images/study/m3/caro",
 
       "q1": {
         "title": "How many silent study group rooms there in Cavendish library ? <br>Hint* Find the library first",
@@ -184,13 +160,7 @@
 
       "title": "Course",
       "noofquestions": "3",
-      "info": {
-
-        "q1_info": "Typically 120 credits is the minimum in a year of study",
-        "q2_info": "The minimum credits per module is 15",
-        "q3_info": "Blackboard submissions are usually due on Mondays by 10am"
-      },
-
+      "info": "<p>Typically 120 credits is the minimum in a year of study</p><p>The minimum credits per module is 15</p><p>Blackboard submissions are usually due on Mondays by 10am",
 
       "q1": {
         "title": "How many total credits is typical in a year on an undergradute course?<br>Hint* log in to SRSweb",
@@ -204,7 +174,6 @@
         "correct": "a",
         "location": "null"
       },
-
 
       "q2": {
         "title": "What is the minimum credits for one module?<br>Hint* Hope your still logged into SRSweb",

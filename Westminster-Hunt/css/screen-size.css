@@ -105,3 +105,9 @@ ul#answers li:nth-child(even), ul#answers-pic li:nth-child(even){
 ul#answers li:nth-child(odd), ul#answers-pic li:nth-child(odd){
   float: left;
 }
+.question-img{
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+  max-height: 300px;
+}
