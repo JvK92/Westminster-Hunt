@@ -47,7 +47,6 @@
 </div><!-- /page Initial -->
 
 <div data-role="page" id="generic">
-
 	<div data-role="header" data-position="fixed" data-hide-during-focus="" data-tap-toggle="false">
 		<a href="#defaultpanel" id="defaultpanel-button" class="phone-elem" data-icon="ui-btn ui-icon-myicon" data-iconpos="notext"></a>
 		<h1 class="heading-title" id="title">Westminster Hunt</h1>
@@ -68,7 +67,6 @@
 
 <script>
 	$( document ).ready(function() {
-
 		device = null;
 		width = window.innerWidth;
 		if (width >= 737){
@@ -81,12 +79,16 @@
 		  .done(function( data ) {
 				$('#panel-tablet').html(data);
 
-				setTimeout(function() {
-					// set width of #content-frame
-					var customW = width - $('#panel-tablet').width() - 2*parseInt($('#panel-tablet').css('padding'));
-					$('#content-frame').css('padding', '0 .5em').css('width', customW);
-					$('#content-frame').html('Please chose a categry.');
-				}, 1);
+				$(document).on("pagechange", function(toPage) {
+					var url = toPage.currentTarget.URL;
+					var index = url.indexOf('#');
+					if (url.substring(index) == "#generic"){
+						// set width of #content-frame on generic Frame when page is loaded
+						var customW = width - $('#panel-tablet').width() - 2*parseInt($('#panel-tablet').css('padding'));
+						$('#content-frame').css('padding', '0 .5em').css('width', customW);
+						$('#content-frame').html('Please chose a categry.');
+					}
+				});
 		  });
 			// load AJAX for everything
 		}
@@ -113,8 +115,9 @@
 		  });
 		}
 		console.log(width);
-	});
 
+
+	});
 </script>
 
 </html>

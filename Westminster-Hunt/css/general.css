@@ -65,6 +65,7 @@ body{
   background-origin: initial;
   background-position-x: 50%;
   background-position-y: 100%;
+  bottom: 0;
 }
 div.ui-content {
   padding: 0;
