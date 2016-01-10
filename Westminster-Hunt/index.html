@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/general.css" />
 	<link rel="stylesheet" href="css/screen-size.css" />
+	<link rel="stylesheet" href="css/phone.css" />
+	<link rel="stylesheet" href="css/tablet.css" />
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
   <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -54,9 +56,7 @@
 
 	<div data-role="content">
 		<div id="panel-tablet" class="tablet-elem"></div>
-		<div id="content-frame">
-			<a href="#" id="test">TEST</a>
-		</div>
+		<div id="content-frame"></div>
 	</div><!-- /content -->
 
 	<!-- defaultpanel  -->
@@ -85,6 +85,7 @@
 					// set width of #content-frame
 					var customW = width - $('#panel-tablet').width() - 2*parseInt($('#panel-tablet').css('padding'));
 					$('#content-frame').css('padding', '0 .5em').css('width', customW);
+					$('#content-frame').html('Please chose a categry.');
 				}, 1);
 		  });
 			// load AJAX for everything
@@ -98,18 +99,20 @@
 			})
 		  .done(function( data ) {
 				$('#defaultpanel').html(data);
+
+				$.ajax({
+					url: "views/missionList.html"
+				})
+				.done(function( data ) {
+					//changePageTitle("Mission List");
+					$('#content-frame').html(data);
+					setTimeout(function(){
+						$('a[href="#tab-Essentials"]').click();
+					}, 1);
+				});
 		  });
 		}
 		console.log(width);
-		$('#test').click( function() {
-			$.ajax({
-				url: "views/missionList.html"
-			})
-			.done(function( data ) {
-				//changePageTitle("Mission List");
-				$('#content-frame').html(data);
-			});
-		});
 	});
 
 </script>

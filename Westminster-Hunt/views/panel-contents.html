@@ -120,13 +120,11 @@
   }
 
   drawChests = function() {
-    console.log('dc');
     currentMission = eval("retrievedCategory.questions");
     // console.log(currentMission);
 
     // drawChests
     for(var propName in currentMission) {
-      console.log(propName);
       var mission = eval("currentMission." + propName);
       if (eval("doneMissions." + currentCategory + "."+ propName)) var html = chest_open;
       else var html = chest_closed;

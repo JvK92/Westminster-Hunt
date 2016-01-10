@@ -1,7 +1,7 @@
 <div class="tabs" >
     <ul class="tab-links">
         <li><a href="#tab-Campuses">Campuses</a></li>
-      	<li><a href="#tab-Essentials">Essentials</a></li>
+      	<li class="active"><a href="#tab-Essentials">Essentials</a></li>
         <li><a href="#tab-People">People</a></li>
         <li><a href="#tab-Study">Study</a></li>
     </ul>
@@ -34,6 +34,7 @@ jQuery(document).ready(function() {
     jQuery('.tabs .tab-links a').on('click', function(e)  {
         var currentAttrValue = jQuery(this).attr('href');
         currentCategory = currentAttrValue.substring(5);
+        changePageTitle(currentCategory);
 
         changeActiveTab(this);
         changeActivePanelBtn($('#mission-categories li a[view="' + currentCategory + '"]'));
