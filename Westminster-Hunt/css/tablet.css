@@ -1,10 +1,10 @@
-/* pannel tablet */
+/*tablet*/
 @media screen and (min-width: 737px) {
-  .content{
+  .content {
     width: 74% !important;
   }
   /* pannel tablet */
-  #content-frame{
+  #content-frame {
     width: 66%;
     padding: 0 1%;
     right: 0;
@@ -16,28 +16,28 @@
   #nav-buttons tr td span.glyphicon {
     font-size: 3em;
   }
-
   /* Question page */
-  ul#answers li div.answer-btn{
+  ul#answers li div.answer-btn {
     width: 90%;
     margin: 0 auto;
   }
-  img#opt-a, img#opt-b, img#opt-c, img#opt-d {
-    width: 200px;
-    height: 200px;
+  .center-page h2 {
+    margin-top: 0;
   }
-
-  .phone-elem{
+  .phone-elem {
     display: none !important;
   }
-
+  img#opt-a, img#opt-b, img#opt-c, img#opt-d {
+    width: 84%;
+    height: 84%;
+  }
   /* missions list */
-  .tab-links{
+  .tab-links {
     display: none;
   }
   /* each line should have max four elemrnts not really needed*/
   div.tab ul li:nth-of-type(2n+4):after {
-    content:"\A";
-    white-space:pre;
+    content: "\A";
+    white-space: pre;
   }
 }

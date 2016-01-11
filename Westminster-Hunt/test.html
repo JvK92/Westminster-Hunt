@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>My Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="App42-all-3.0.min.js"></script>
+
+
+</head>
+<body>
+
+<div id="send">Send Email</div>
+
+</body>
+
+<script>
+
+var emailService  = new App42Email();
+$('#send').click(function() {
+	var sendTo = "radoslav.radev@my.westminster.ac.uk",
+	senderEmailId = "radoslav.radev@my.westminster.co.uk",
+	sendSubject = "Test email",
+	sendMsg = "Hello",
+	result;
+	var emailService  = new App42Email();
+	emailService.sendMail(sendTo,sendSubject,sendMsg,senderEmailId,"text/plain",{
+		success: function(object) {
+		var email = JSON.parse(object);
+		result = email.app42.response.email;
+		console.log("email message " + result.body);
+		console.log("from id " + result.from);
+		console.log("subject  " + result.subject);
+		console.log("to id " + result.to);
+		console.log(result);
+		},
+		error: function(error) {
+			console.log('error');
+		}
+
+});
+
+})
+</script>
+
+</html>

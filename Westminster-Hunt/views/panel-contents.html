@@ -17,7 +17,7 @@
 </table>
 
 <script>
-
+$( document ).ready(function() {
   if (width < 737 && $('#defaultpanel')) {
     // generate the panel for phone
     $('#mission-categories').prev('h2').html('Menu');
@@ -69,7 +69,7 @@
 
     // load ajax;
     $.ajax({
-      url: "views/" + viewName + ".html"
+      url: "views/" + viewName.toLowerCase() + ".html"
     })
     .done(function( data ) {
       // if teh view is fav change the name so the page title is favourites
@@ -98,7 +98,7 @@
     // show mission list
     retrievedCategory = null;
     $.ajax({
-      url: "views/missionList.html"
+      url: "views/missionlist.html"
     })
     .done(function(data) {
       changePageTitle(currentCategory);
@@ -194,7 +194,6 @@
   }
 
 // Questions controller
-  var correctAnswer = null;
   var userScore = doneMissions.score;
   if (userScore > 0) $('#panelPoints').html(userScore);
 
@@ -324,5 +323,6 @@
     currentId = null;
     currentLen = null;
   };
+});
 // end of questions controller
 </script>

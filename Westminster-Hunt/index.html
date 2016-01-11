@@ -5,14 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/general.css" />
 	<link rel="stylesheet" href="css/screen-size.css" />
 	<link rel="stylesheet" href="css/phone.css" />
 	<link rel="stylesheet" href="css/tablet.css" />
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
   <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="https://checkout.stripe.com/checkout.js"></script> <!-- stripe payment -->
 
 
@@ -70,9 +70,7 @@
 		device = null;
 		width = window.innerWidth;
 		if (width >= 737){
-			// tablet
 			device = 'tablet';
-			console.log("tablet");
 			$.ajax({
 			  url: "views/panel-contents.html"
 			})
@@ -93,9 +91,7 @@
 			// load AJAX for everything
 		}
 		else {
-			// phone
 			device = 'phone';
-			console.log("phone");
 			$.ajax({
 			  url: "views/panel-contents.html"
 			})
@@ -103,7 +99,7 @@
 				$('#defaultpanel').html(data);
 
 				$.ajax({
-					url: "views/missionList.html"
+					url: "views/missionlist.html"
 				})
 				.done(function( data ) {
 					//changePageTitle("Mission List");

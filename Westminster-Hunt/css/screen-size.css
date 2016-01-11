@@ -67,11 +67,7 @@ div.tab ul li div span {
 
 /* Question page */
 .center-page{
-  top: 1%;
-  left: 5%;
-  right: 5%;
-  bottom: 5%;
-  position: absolute;
+  padding: 1% 5% 5% 5%;
 }
 table#answers {
   width: 100%;
@@ -89,7 +85,6 @@ ul#answers, ul#answers-pic{
   list-style: none;
   padding: 0;
   margin: 0;
-  position: absolute;
   left: 0;
   right: 0;
 }
